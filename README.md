@@ -16,9 +16,7 @@
 - Train/test Split
 
 ## Proyecto:
-Este proyecto te desafía a seleccionar una problemática entre un conjunto de opciones, indagar qué datos podrían ayudarte a abordarla, realizar un análisis exploratorio y entrenar un modelo sencillo de Machine Learning para resolverla. ¡Esperamos que puedas llevar adelante un primer ?ujo de trabajo tal como lo hacemos los/as Cientí?cos/as de Datos!
-
-
+En este proyecto, en primer lugar realicé un EDA a un dataset que contiene datos de propiedades en Argentina. Luego de identificar las particularidades del mismo, entrené un modelo sencillo de Machine Learning y realicé la optimización de sus hiperparámetros para predecir los precios de potenciales nuevas propiedades a partir de los atributos que se recolectan.
 
 # Módulo 2: Herramientas avanzadas
 
@@ -34,7 +32,7 @@ Este proyecto te desafía a seleccionar una problemática entre un conjunto de o
 
 ## Proyecto:
 ### Ingeniería de Features, Modelos Avanzados e Interpretación de Modelos
-En este proyecto, el desafío es aplicar ingeniería de features y modelos avanzados para desarrollar con mayor profundidad tu modelo de Machine Learning. ¿Qué puedes aprender del problema que estás abordando mediante el estudio de tu propio modelo?
+En este proyecto apliqué ingeniería de features y modelos avanzados para desarrollar con mayor profundidad y mejorar el rendimiento del modelo de Machine Learning obtenido del Módulo 1.
 
 # Módulo 3: Aplicaciones
 ## Temas:
@@ -49,4 +47,4 @@ En este proyecto, el desafío es aplicar ingeniería de features y modelos avanz
 
 ## Proyecto
 ### Aplicaciones actuales
-En este proyecto, el desafío consiste en resolver problemas de relevancia contemporánea aplicando procesamiento del lenguaje natural, sistemas de recomendación y series de tiempo
+En este proyecto, utilicé un dataset de Amazon para poder predecir el puntaje

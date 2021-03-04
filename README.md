@@ -1,4 +1,4 @@
-<img src="https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/Acamica/original.png" width="48">
+<img src="https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/Acamica/original.png" width="150">
 
 ¿De qué se trata el curso Data Science de Acámica?
 

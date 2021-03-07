@@ -1,6 +1,8 @@
 <img src="https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/Acamica/original.png" width="150">
 1. Alcance
+
 En este repositorio volcaré los proyectos entregados en el curso de Data Science dictado por Acámica en 2020/2021 (cohorte 25)
+
 
 2. ¿Sobre qué temas trata el curso Data Science de Acámica?**
 

@@ -19,8 +19,7 @@ En este repositorio volcaré los proyectos entregados en el curso de Data Scienc
 - MAE
 - Train/test Split
 
-### Proyecto: Primer modelo de Machine Learning (aprobado <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Light_green_check.svg/1024px-Light_green_check.svg.png" width="50">
-)
+### Proyecto: Primer modelo de Machine Learning (aprobado <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Light_green_check.svg/1024px-Light_green_check.svg.png" width="15"> )
 En este proyecto, en primer lugar realicé un EDA a un dataset que contiene datos de propiedades en Argentina. Luego de identificar las particularidades del mismo, entrené un modelo sencillo de Machine Learning y realicé la optimización de sus hiperparámetros para predecir los precios de potenciales nuevas propiedades a partir de los atributos dados. La precisión del modelo no fue satisfactoria debido a falta de un adecuado preprocesamiento y a la simplicidad del modelo
 
 ## Módulo 2: Herramientas avanzadas

@@ -1,6 +1,8 @@
 <img src="https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/Acamica/original.png" width="150">
+1. Alcance
+En este repositorio volcaré los proyectos entregados en el curso de Data Science dictado por Acámica en 2020/2021 (cohorte 25)
 
-¿De qué se trata el curso Data Science de Acámica?
+2. ¿Sobre qué temas trata el curso Data Science de Acámica?**
 
 # Módulo 1: Introducción a Data Science
 
@@ -32,7 +34,7 @@ En este proyecto, en primer lugar realicé un EDA a un dataset que contiene dato
 
 ## Proyecto:
 ### Ingeniería de Features, Modelos Avanzados e Interpretación de Modelos
-En este proyecto apliqué ingeniería de features y modelos avanzados para desarrollar con mayor profundidad y mejorar el rendimiento del modelo de Machine Learning obtenido del Módulo 1.
+En este proyecto apliqué ingeniería de features y modelos avanzados para desarrollar con mayor profundidad y mejorar el rendimiento del modelo de Machine Learning obtenido en el Proyecto 1.
 
 # Módulo 3: Aplicaciones
 ## Temas:
@@ -47,4 +49,4 @@ En este proyecto apliqué ingeniería de features y modelos avanzados para desar
 
 ## Proyecto
 ### Aplicaciones actuales
-En este proyecto, utilicé un dataset de Amazon para poder predecir el puntaje
+En este proyecto, utilicé un dataset de Amazon que contenía reseñas sobre distintos productos para, mediante el procesamiento de lenguaje natural, poder predecir el puntaje que daría un usuario dada una reseña

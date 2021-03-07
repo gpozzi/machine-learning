@@ -1,4 +1,4 @@
-<img src="https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/Acamica/original.png" width="250">
+<img src="https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/Acamica/original.png" width="500">
 
 # 1. Alcance
 

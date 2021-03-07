@@ -19,8 +19,9 @@ En este repositorio volcaré los proyectos entregados en el curso de Data Scienc
 - MAE
 - Train/test Split
 
-### Proyecto: Primer modelo de Machine Learning
-En este proyecto, en primer lugar realicé un EDA a un dataset que contiene datos de propiedades en Argentina. Luego de identificar las particularidades del mismo, entrené un modelo sencillo de Machine Learning y realicé la optimización de sus hiperparámetros para predecir los precios de potenciales nuevas propiedades a partir de los atributos que se recolectan.
+### Proyecto: Primer modelo de Machine Learning (aprobado <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Light_green_check.svg/1024px-Light_green_check.svg.png" width="50">
+)
+En este proyecto, en primer lugar realicé un EDA a un dataset que contiene datos de propiedades en Argentina. Luego de identificar las particularidades del mismo, entrené un modelo sencillo de Machine Learning y realicé la optimización de sus hiperparámetros para predecir los precios de potenciales nuevas propiedades a partir de los atributos dados. La precisión del modelo no fue satisfactoria debido a falta de un adecuado preprocesamiento y a la simplicidad del modelo
 
 ## Módulo 2: Herramientas avanzadas
 
@@ -34,8 +35,8 @@ En este proyecto, en primer lugar realicé un EDA a un dataset que contiene dato
 - Interpretación de modelos
 - Ingeniería de features: One Hoy Encoding, LabelEncoding, Scaling, etc.
 
-### Proyecto: Ingeniería de Features, Modelos Avanzados e Interpretación de Modelos
-En este proyecto apliqué ingeniería de features y modelos avanzados para desarrollar con mayor profundidad y mejorar el rendimiento del modelo de Machine Learning obtenido en el Proyecto 1.
+### Proyecto: Ingeniería de Features, Modelos Avanzados e Interpretación de Modelos (aprobado)
+En este proyecto apliqué ingeniería de features y modelos avanzados para desarrollar con mayor profundidad y mejorar el rendimiento del modelo de Machine Learning obtenido en el Proyecto 1. Si bien con un preprocesamiento más exhaustivo y la aplicación de modelos de regresión más avanzados el rendimiento mejoró notablemente (reduciendo el error en aproximadamente la mitad), debido a la falta de atributos recolectados que correlacionen mejor con el precio no se pudo obtener un modelo cuyo error pueda ser usado por fuera del ámbito experimental.
 
 ## Módulo 3: Aplicaciones
 ### Temas:

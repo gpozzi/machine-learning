@@ -19,8 +19,7 @@ En este repositorio volcaré los proyectos entregados en el curso de Data Scienc
 - MAE
 - Train/test Split
 
-### Proyecto:
-### Primer modelo de Machine Learning
+### Proyecto: Primer modelo de Machine Learning
 En este proyecto, en primer lugar realicé un EDA a un dataset que contiene datos de propiedades en Argentina. Luego de identificar las particularidades del mismo, entrené un modelo sencillo de Machine Learning y realicé la optimización de sus hiperparámetros para predecir los precios de potenciales nuevas propiedades a partir de los atributos que se recolectan.
 
 ## Módulo 2: Herramientas avanzadas
@@ -35,8 +34,7 @@ En este proyecto, en primer lugar realicé un EDA a un dataset que contiene dato
 - Interpretación de modelos
 - Ingeniería de features: One Hoy Encoding, LabelEncoding, Scaling, etc.
 
-### Proyecto:
-### Ingeniería de Features, Modelos Avanzados e Interpretación de Modelos
+### Proyecto: Ingeniería de Features, Modelos Avanzados e Interpretación de Modelos
 En este proyecto apliqué ingeniería de features y modelos avanzados para desarrollar con mayor profundidad y mejorar el rendimiento del modelo de Machine Learning obtenido en el Proyecto 1.
 
 ## Módulo 3: Aplicaciones
@@ -50,6 +48,5 @@ En este proyecto apliqué ingeniería de features y modelos avanzados para desar
 - Interpretación de modelos
 - Ingeniería de features: One Hoy Encoding, LabelEncoding, Scaling, etc.
 
-### Proyecto
-### Aplicaciones actuales
+### Proyecto: Aplicaciones actuales
 En este proyecto, utilicé un dataset de Amazon que contenía reseñas sobre distintos productos para, mediante el procesamiento de lenguaje natural, poder predecir el puntaje que daría un usuario dada una reseña

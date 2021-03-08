@@ -4,7 +4,7 @@
 
 En este repositorio volcaré los proyectos entregados en el curso de Data Science dictado por Acámica en 2020/2021 (cohorte 25)
 
-# 2. ¿Sobre qué temas trata el curso Data Science de Acámica?
+# 2. Temas
 
 ## Módulo 1: Introducción a Data Science <img src="https://static.thenounproject.com/png/2245695-200.png" width="25">
 

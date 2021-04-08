@@ -48,5 +48,5 @@ En este proyecto apliqué ingeniería de features y modelos avanzados para desar
 - Interpretación de modelos
 - Ingeniería de features: One Hoy Encoding, LabelEncoding, Scaling, etc.
 
-### Proyecto: Aplicaciones actuales
+### Proyecto: Aplicaciones actuales (aprobado <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Light_green_check.svg/1024px-Light_green_check.svg.png" width="15"> )
 En este proyecto, utilicé un dataset de Amazon que contenía reseñas sobre distintos productos para, mediante el procesamiento de lenguaje natural, poder predecir el puntaje que daría un usuario dada una reseña

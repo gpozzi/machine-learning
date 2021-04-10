@@ -51,5 +51,6 @@ En este proyecto apliqué ingeniería de features y modelos avanzados para desar
 ### Proyecto: Aplicaciones actuales (aprobado <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Light_green_check.svg/1024px-Light_green_check.svg.png" width="15"> )
 En este proyecto, utilicé un dataset de Amazon que contenía reseñas sobre distintos productos para, mediante el procesamiento de lenguaje natural, poder predecir el puntaje que daría un usuario dada una reseña
 
+## Módulo 4: Cierre de carrera <img src="https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/finish_flag-512.png" width="30">
 ## Proyecto: Informe final de carrera 
 En este proyecto profundicé y amplié los resultados del proyecto anterior mediante el replanteamiento del problema como una clasificación binaria (positiva/negativa). Adicionalmente, clasifiqué a través de esta metodología a las reseñas de 3 estrellas para ver qué categorías de productos presentaban mayor tolerancia por parte de los usuarios.

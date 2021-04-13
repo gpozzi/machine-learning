@@ -2,7 +2,7 @@
 
 # 1. Alcance
 
-En este repositorio volcaré los proyectos entregados en el curso de Data Science dictado por Acámica en 2020/2021 (cohorte 25)
+En este repositorio subiré los proyectos entregados para el curso de Data Science dictado por Acámica en 2020/2021
 
 # 2. Temas
 
@@ -20,7 +20,7 @@ En este repositorio volcaré los proyectos entregados en el curso de Data Scienc
 - Train/test Split
 
 ### [Proyecto: Primer modelo de Machine Learning (aprobado <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Light_green_check.svg/1024px-Light_green_check.svg.png" width="15"> )](https://github.com/gpozzi/acamica-DS/blob/master/DSProyecto01.ipynb)
-En este proyecto, en primer lugar realicé un EDA a un dataset que contiene datos de propiedades en Argentina. Luego de identificar las particularidades del mismo, entrené un modelo sencillo de Machine Learning y realicé la optimización de sus hiperparámetros para predecir los precios de potenciales nuevas propiedades a partir de los atributos dados. La precisión del modelo no fue satisfactoria debido a falta de un adecuado preprocesamiento y a la simplicidad del modelo
+En primer lugar realicé un EDA a un dataset que contiene datos de propiedades en Argentina. Luego de identificar las particularidades del mismo, entrené un modelo sencillo de Machine Learning y realicé la optimización de sus hiperparámetros para predecir los precios de potenciales nuevas propiedades a partir de los atributos dados. La precisión del modelo no fue satisfactoria debido a falta de un adecuado preprocesamiento y a la simplicidad del mismo.
 
 ## Módulo 2: Herramientas avanzadas <img src="https://static.thenounproject.com/png/788416-200.png" width="25">
 

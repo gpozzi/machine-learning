@@ -1,5 +1,8 @@
 <img src="https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/Acamica/original.png" width="500">
 
+# ENG <img src="https://www.buyflags.eu/sites/default/files/products-images/state-flags/velkabritaniamotovlajkaneobsita.png" width="20">
+
+# SPA <img src="https://www.shareicon.net/data/256x256/2017/01/17/871956_flag_512x512.png" width="20">
 # 1. Alcance
 
 En este repositorio subiré los proyectos entregados para el curso de Data Science dictado por Acámica en 2020/2021

@@ -2,11 +2,8 @@
   - [Scope](#1-scope)
   - [Syllabus](#2-syllabus)
     - [Module 1](#module-1-introduction-to-data-science-)
-      - [Topics](#topics)
       - [Project 1](#project-first-machine-learning-model-passed-)
     - [Module 2](#module-2-advanced-tools-)
-      - [Topics](#topics-1)
-      - [Project 2]
 
 [Versión en español](#spa-)
 
@@ -48,7 +45,7 @@ I started performing an EDA on a dataset that contains property data in Argentin
 - Interpretation of models
 - Feature engineering: One Hot Encoding, LabelEncoding, Scaling, etc.
 
-### [Project: Features Engineering, Advanced Models and Model Interpretation (passed <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Light_green_check.svg/1024px-Light_green_check.svg.png "width ="15"> )](https://github.com/gpozzi/acamica-DS/blob/master/DSProyecto02.ipynb)
+### [Project: Features Engineering, Advanced Models and Model Interpretation (passed <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Light_green_check.svg/1024px-Light_green_check.svg.png" width = "15">)](https://github.com/gpozzi/acamica-DS/blob/master/DSProyecto02.ipynb)
 
 In this project I applied feature engineering and advanced models to develop in greater depth and improve the performance of the Machine Learning model obtained in Project 1. Although with a more exhaustive preprocessing and the application of more advanced regression models, the performance improved remarkably (reducing the error by approximately half), due to the lack of collected attributes that correlate better with the price, it was not possible to obtain a model whose error can be used outside the experimental scope.
 

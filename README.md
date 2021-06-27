@@ -40,6 +40,7 @@ I started performing an EDA on a dataset that contains property data in Argentin
 - Feature engineering: One Hot Encoding, LabelEncoding, Scaling, etc.
 
 ### [Project: Features Engineering, Advanced Models and Model Interpretation (passed <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Light_green_check.svg/1024px-Light_green_check.svg.png "width ="15"> )](https://github.com/gpozzi/acamica-DS/blob/master/DSProyecto02.ipynb)
+
 In this project I applied feature engineering and advanced models to develop in greater depth and improve the performance of the Machine Learning model obtained in Project 1. Although with a more exhaustive preprocessing and the application of more advanced regression models, the performance improved remarkably (reducing the error by approximately half), due to the lack of collected attributes that correlate better with the price, it was not possible to obtain a model whose error can be used outside the experimental scope.
 
 ## Module 3: Applications <img src = "https://static.thenounproject.com/png/2985136-200.png" width = "30">

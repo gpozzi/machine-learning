@@ -1,4 +1,4 @@
-[English version](#eng-2)
+[English version](#eng-)
 [Versión en español]
 
 <img src="https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/Acamica/original.png" width="500">

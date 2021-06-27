@@ -2,8 +2,16 @@
   - [Scope](#1-scope)
   - [Syllabus](#2-syllabus)
     - [Module 1](#module-1-introduction-to-data-science-)
+      - [Topics](#topics)
       - [Project 1](#project-first-machine-learning-model-passed-)
     - [Module 2](#module-2-advanced-tools-)
+      - [topics](#topics-1)
+      - [Project 2](#project-features-engineering-advanced-models-and-model-interpretation-passed-)
+    - [Module 3](#module-3-applications-)
+      - [topics](#topics-2)
+      - [Project 3](#project-current-applications-passed-)
+    - [Module 4](#module-4-capstone-project-)
+      - [Project 4](#project-final-degree-report-passed-)
 
 [Versión en español](#spa-)
 

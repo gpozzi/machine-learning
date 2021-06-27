@@ -53,7 +53,7 @@ In this project I applied feature engineering and advanced models to develop in 
 - Interpretation of models
 - Feature engineering: One Hot Encoding, LabelEncoding, Scaling, etc.
 
-### [Project: Current Applications (passed <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Light_green_check.svg/1024px-Light_green_check.svg.png" width = " 15 ">)](https://github.com/gpozzi/acamica-DS/blob/master/DS_Proyecto_03_NLP.ipynb)
+### [Project: Current Applications (passed <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Light_green_check.svg/1024px-Light_green_check.svg.png" width="15">)](https://github.com/gpozzi/acamica-DS/blob/master/DS_Proyecto_03_NLP.ipynb)
 In this project, I used an Amazon dataset that contained reviews about different products to, through natural language processing, be able to predict the score that a user would give given a review
 
 ## Module 4: Race Closure <img src = "https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/finish_flag-512.png" width = "30">

@@ -1,4 +1,4 @@
-[English version](#temas)
+[English version](#2.-temas)
 [Versión en español]
 
 <img src="https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/Acamica/original.png" width="500">

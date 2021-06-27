@@ -1,4 +1,4 @@
-[English version](#eng-) <img src="https://www.buyflags.eu/sites/default/files/products-images/state-flags/velkabritaniamotovlajkaneobsita.png" width="40">
+[English version](#eng-) <img src="https://www.buyflags.eu/sites/default/files/products-images/state-flags/velkabritaniamotovlajkaneobsita.png" width="15">
   - [Scope](#1-scope)
   - [Syllabus](#2-syllabus)
     - [Module 1](#module-1-introduction-to-data-science-)
@@ -13,7 +13,9 @@
     - [Module 4](#module-4-capstone-project-)
       - [Project 4](#project-final-degree-report-passed-)
 
-[Versión en español](#spa-)
+---
+
+[Versión en español](#spa-) <img src="https://www.shareicon.net/data/256x256/2017/01/17/871956_flag_512x512.png" width="15">
   - [Alcance](#1-alcance)
   - [Temas](#2-temas)
     - [Módulo 1](#module-1-introduction-to-data-science-)

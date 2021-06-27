@@ -2,8 +2,11 @@
   - [Scope](#1-scope)
   - [Syllabus](#2-syllabus)
     - [Module 1](#module-1-introduction-to-data-science-)
+      - [Topics](#topics)
       - [Project 1](#project-first-machine-learning-model-passed-)
     - [Module 2](#module-2-advanced-tools-)
+      - [Topics](#topics-1)
+      - [Project 2]
 
 [Versión en español](#spa-)
 

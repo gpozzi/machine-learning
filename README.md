@@ -1,4 +1,10 @@
 [English version](#eng-)
+  - [Scope](#1-scope)
+  - [Syllabus](#2-syllabus)
+    - [Module 1](#module-1-introduction-to-data-science-)
+      - [Project 1](#project-first-machine-learning-model-passed-)
+    - [Module 2](#module-2-advanced-tools-)
+
 [Versión en español](#spa-)
 
 <img src="https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/Acamica/original.png" width="500">

@@ -1,19 +1,33 @@
-[English version](#eng-)
+[English version](#eng-) <img src="https://www.buyflags.eu/sites/default/files/products-images/state-flags/velkabritaniamotovlajkaneobsita.png" width="40">
   - [Scope](#1-scope)
   - [Syllabus](#2-syllabus)
     - [Module 1](#module-1-introduction-to-data-science-)
       - [Topics](#topics)
       - [Project 1](#project-first-machine-learning-model-passed-)
     - [Module 2](#module-2-advanced-tools-)
-      - [topics](#topics-1)
+      - [Topics](#topics-1)
       - [Project 2](#project-features-engineering-advanced-models-and-model-interpretation-passed-)
     - [Module 3](#module-3-applications-)
-      - [topics](#topics-2)
+      - [Topics](#topics-2)
       - [Project 3](#project-current-applications-passed-)
     - [Module 4](#module-4-capstone-project-)
       - [Project 4](#project-final-degree-report-passed-)
 
 [Versión en español](#spa-)
+  - [Alcance](#1-alcance)
+  - [Temas](#2-temas)
+    - [Módulo 1](#module-1-introduction-to-data-science-)
+      - [Temas](#temas)
+      - [Proyecto 1](#project-first-machine-learning-model-passed-)
+    - [Módulo 2](#module-2-advanced-tools-)
+      - [Temas](#temas-1)
+      - [Proyecto 2](#project-features-engineering-advanced-models-and-model-interpretation-passed-)
+    - [Módulo 3](#module-3-applications-)
+      - [Temas](#temas-2)
+      - [Proyecto 3](#project-current-applications-passed-)
+    - [Módulo 4](#module-4-capstone-project-)
+      - [Proyecto 4](#project-final-degree-report-passed-)
+
 
 <img src="https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/Acamica/original.png" width="500">
 

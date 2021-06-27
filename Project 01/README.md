@@ -1,3 +1,13 @@
+**Project at a glance**
+
+- Libraries:
+  - Numpy
+  - Pandas
+  - Seaborn
+  - Matplotlib
+  - Scikit Learn
+- Dataset
+- 
 The goal of this project is to 
 This project is divided into three parts:
 

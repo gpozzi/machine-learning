@@ -20,11 +20,8 @@ This project is divided into three parts:
 # Data description
 Dataset has been provided by [Properati](https://www.properati.com.ar/data), it contains 1 file: `DS_Proyecto_01_Datos_Properati.csv`
 The parameters included are:
-```diff
-- categorical
-```
 
-- <span style="color:blue">`start_date`</span>: Date of registration of the property publication. <span style="color:blue">(numerical)</span> 
+- `start_date`: Date of registration of the property publication. (numerical)
 - `end_date`: Date in which the publication has been withdrawed. (numerical)
 - `created_on`: Date in which the publication has been created. (numerical)
 - `lat`: Latitude of the property. (categorical)

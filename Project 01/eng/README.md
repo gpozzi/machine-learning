@@ -57,17 +57,17 @@ There  are many  benefits that  home buyers,  property investors, and house buil
 
 # Some exploratory data analysis
 
-[img](https://i.imgur.com/TQUSCsM.png)
+![img](https://i.imgur.com/TQUSCsM.png)
 
-[img](https://i.imgur.com/6EJ0IsP.png)
+![img](https://i.imgur.com/6EJ0IsP.png)
 
-[img](https://i.imgur.com/ZncBweE.png)
+![img](https://i.imgur.com/ZncBweE.png)
 
-[img](https://i.imgur.com/No65L68.png)
+![img](https://i.imgur.com/No65L68.png)
 
-[img](https://i.imgur.com/oYR0MF9.png)
+![img](https://i.imgur.com/oYR0MF9.png)
 
-[img](https://i.imgur.com/JW7TDxE.png)
+![img](https://i.imgur.com/JW7TDxE.png)
 
 # Results
 The results have been documented in the [Jupyter Notebook](https://github.com/gpozzi/acamica-DS/blob/master/Project%2001/DSProyecto01.ipynb)

@@ -69,5 +69,13 @@ There  are many  benefits that  home buyers,  property investors, and house buil
 
 ![img](https://i.imgur.com/JW7TDxE.png)
 
-# Results
-The results have been documented in the [Jupyter Notebook](https://github.com/gpozzi/acamica-DS/blob/master/Project%2001/DSProyecto01.ipynb)
+# Conclusions
+
+Although the analysis carried out so far makes it possible to select the best regression model by comparing relative errors, it should be noted that US $ 138,384, which is the value of the RMSE, is also the value of some departments, so an error of this magnitude should be considered inadmissible.
+
+This model presents some opportunities for improvement, such as:
+
+- Better handling of missing values, such as imputation, could be done instead of removing these instances from the dataset
+- Categorical variables such as the neighborhood or perhaps the presence of some keywords within the description could be introduced to the analysis
+- Data external to the dataset could be used such as the location of some points of interest (such as subway stations, hospitals, schools or bus stops) relative to the properties using the coordinates
+- As a future improvement of the dataset and taking into account that the pricing of a property (and more so in a real estate market such as Argentina) can present large variations in a short period of time, the variable "realization of the sale operation" could be added. This categorical variable would be easy to collect, and at the same time penalize excessively high prices, resulting in an improvement in the predictive capacity of the model.

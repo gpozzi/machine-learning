@@ -34,7 +34,7 @@ This project is divided into five parts:
 - Conclusions
 
 # Motivation
-House is one of human life's most essential needs, along with other fundamental needs such as food, water, and much more. Demand for houses grew rapidly over the years as  people's living standards improved. While there are people who make their house as an investment and property, yet most people around the world are buying a house as their shelter or as their livelihood.
+Housing is one of human life's most essential needs, along with other fundamental needs such as food, water, and much more. Demand for houses grew rapidly over the years as  people's living standards improved. While there are people who make their house as an investment and property, yet most people around the world are buying a house as their shelter or as their livelihood.
 
 An increase in house demand occurs each year, indirectly causing house price increases every year. The problem arises when there are numerous variables that may influence the house price, thus most stakeholders including buyers and developers, house builders and the real estate industry would like to know the exact attributes or the accurate factors  influencing the house price to help investors make decisions and help house builders set the house price.
 
@@ -69,25 +69,18 @@ All the requirements will be given in the requirements.txt file. To install, run
 
 # Some exploratory data analysis
 
-![img](https://i.imgur.com/TQUSCsM.png)
+![img](https://i.imgur.com/zkMXTXv.png)
 
-![img](https://i.imgur.com/6EJ0IsP.png)
+![img](https://i.imgur.com/ECrUenO.png)
 
-![img](https://i.imgur.com/ZncBweE.png)
-
-![img](https://i.imgur.com/No65L68.png)
-
-![img](https://i.imgur.com/oYR0MF9.png)
-
-![img](https://i.imgur.com/JW7TDxE.png)
+![img](https://i.imgur.com/ig7yjCW.png)
 
 # Conclusions
+As expected, the proposed improvements, both preprocessing and the use of better predictive models in this report, significantly improved performance compared to the first project. Adding variables such as neighborhood, reducing the noise from outliers, scaling variables or not discarding so many instances just for having missing values greatly enriched the model.
 
-Although the analysis carried out so far makes it possible to select the best regression model by comparing relative errors, it should be noted that US $ 138,384, which is the value of the RMSE, is also the value of some departments, so an error of this magnitude should be considered inadmissible.
+However, as in the previous report, the mean square error of the best model (**USD 59,113**) is still significant and unacceptable considering that it is **half the value of 27% of the apartments for sale**.
 
-This model presents some opportunities for improvement, such as:
+I reiterate some of the recommendations from the previous report to improve the performance of this model:
 
-- Better handling of missing values, such as imputation, could be done instead of removing these instances from the dataset
-- Categorical variables such as the neighborhood or perhaps the presence of some keywords within the description could be introduced to the analysis
 - Data external to the dataset could be used such as the location of some points of interest (such as subway stations, hospitals, schools or bus stops) relative to the properties using the coordinates
-- As a future improvement of the dataset and taking into account that the pricing of a property (and more so in a real estate market such as Argentina) can present large variations in a short period of time, the variable "realization of the sale operation" could be added. This categorical variable would be easy to collect, and at the same time penalize excessively high prices, resulting in an improvement in the predictive capacity of the model.
+- As a future improvement of the dataset and taking into account that the pricing of a property (and more so in a real estate market such as Argentina) can present large variations in a short period of time, the variable "realization of the sale operation could be added ". This categorical variable would be easy to collect, and at the same time penalize excessively high prices, resulting in an improvement in the predictive capacity of the model.

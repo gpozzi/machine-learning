@@ -21,7 +21,7 @@ This project is divided into five parts:
   - Data scaling (`z-transformation` and `log-transformation`)
 - Machine Learning
   - Stating results of previous project
-  - Model training and comparing with benchmark of the following models:
+  - Model training and comparing benchmark with the following models:
     - Decision tree optimized with RandomSearchCV
     - XGBRegressor
     - XGBRegressor optimized with RandomSearchCV

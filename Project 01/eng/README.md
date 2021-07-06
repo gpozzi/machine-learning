@@ -1,4 +1,5 @@
-**Project at a glance**
+# Project at a glance
+
 I have recently joined the Data team of a large real estate company. The first task assigned is to help appraisers value properties, as it's a difficult and sometimes subjective process. To do this, I propose to create a Machine Learning model that, given certain characteristics of the property, predicts its sale price.
 
 - Project tools:

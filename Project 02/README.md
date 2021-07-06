@@ -22,13 +22,13 @@ This project is divided into five parts:
 - Machine Learning
   - Stating results of previous project
   - Model training and comparing with benchmark of the following models:
-   - Decision tree optimized with RandomSearchCV
-   - XGBRegressor
-   - XGBRegressor optimized with RandomSearchCV
-   - RandomForest regressor
-   - RandomForest optimized with RandomSearchCV
-   - ADABoost optimized with RandomSearchCV
-   - Polynomial regression
+    - Decision tree optimized with RandomSearchCV
+    - XGBRegressor
+    - XGBRegressor optimized with RandomSearchCV
+    - RandomForest regressor
+    - RandomForest optimized with RandomSearchCV
+    - ADABoost optimized with RandomSearchCV
+    - Polynomial regression
   - Optimization of the best performing one
 - Results interpretation
 - Conclusions

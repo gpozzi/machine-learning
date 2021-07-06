@@ -28,7 +28,7 @@ This project is divided into five parts:
     - RandomForest regressor
     - RandomForest optimized with RandomSearchCV
     - ADABoost optimized with RandomSearchCV
-    - Polynomial regression
+    - Polynomial regressor
   - Optimization of the best performing one
 - Results interpretation
 - Conclusions

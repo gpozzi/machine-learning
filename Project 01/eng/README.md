@@ -34,7 +34,7 @@ Dataset has been provided by [Properati](https://www.properati.com.ar/data), it 
 The parameters included are:
 
 - `start_date`: Date of registration of the property publication. (numerical)
-- `end_date`: Date in which the publication has been withdrawed. (numerical)
+- `end_date`: Date in which the publication has been withdrawn. (numerical)
 - `created_on`: Date in which the publication has been created. (numerical)
 - `lat`: Latitude of the property. (categorical)
 - `lon`: Longitude of the property. (categorical)

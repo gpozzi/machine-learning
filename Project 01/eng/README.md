@@ -16,7 +16,7 @@ This project is divided into five parts:
 - Factors that influence house price
 - EDA and data cleaning
   - Feature selection
-  - Additional analysis
+  - Additional analysis: correlation between population density and apartment size
 - Machine Learning
   - Selection of measurement of error
   - Setting predictor and target variables

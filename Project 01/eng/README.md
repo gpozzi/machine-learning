@@ -12,13 +12,16 @@ I have recently joined the Data team of a large real estate company. The first t
 
 This project is divided into five parts:
 
-- Introduction
+- Scope
+- Factors that influence house price
 - EDA and data cleaning
-- Feature selection
+  - Feature selection
+  - Additional analysis
 - Machine Learning
   - Selection of measurement of error
+  - Setting predictor and target variables
   - Setting benchmark model
-  - Comparing benchmark with decision tree and KNN models
+  - Comparing benchmark with other models
   - Optimization of the best performing one
 - Conclusions
 
@@ -72,11 +75,11 @@ All the requirements will be given in the requirements.txt file. To install, run
 
 # Conclusions
 
-Although the analysis carried out so far makes it possible to select the best regression model by comparing relative errors, it should be noted that US $ 138,384, which is the value of the RMSE, is also the value of some departments, so an error of this magnitude should be considered inadmissible.
+Although the analysis carried out so far makes it possible to select the best regression model by comparing relative errors, the feasibility of performing price predictions should be taken into account, which is the objective of this document. It should be noted that US $ 138,384, which is the value of the RMSE, is also the value of some apartments, so an error of this magnitude is inadmissible.
 
 This model presents some opportunities for improvement, such as:
 
 - Better handling of missing values, such as imputation, could be done instead of removing these instances from the dataset
 - Categorical variables such as the neighborhood or perhaps the presence of some keywords within the description could be introduced to the analysis
 - Data external to the dataset could be used such as the location of some points of interest (such as subway stations, hospitals, schools or bus stops) relative to the properties using the coordinates
-- As a future improvement of the dataset and taking into account that the pricing of a property (and more so in a real estate market such as Argentina) can present large variations in a short period of time, the variable "realization of the sale operation" could be added. This categorical variable would be easy to collect, and at the same time penalize excessively high prices, resulting in an improvement in the predictive capacity of the model.
+- As a future improvement of the dataset and taking into account that the pricing of a property (and more so in a real estate market such as Argentina) can present large variations in a short period of time, a binary variable "`sale_status`" (with values like `sold` / `not sold`) could be added. This categorical variable would be easy to collect, and at the same time penalize excessively high prices, resulting in an improvement in the predictive capacity of the model.

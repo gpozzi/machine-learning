@@ -48,9 +48,6 @@ The parameters included are:
 - `property_type`: Type of property (house, apartment, PH). (categorical)
 - `operation_type`: Type of operation (buy, rent). (categorical)
 
-# Requirements
-All the requirements will be given in the requirements.txt file. To install, run pip install -r requirements.txt
-
 # Project description
 This project was made for [Acámica's](https://www.acamica.com/data-science) data science bootcamp and consists of two iteration:
 ## Iteration one
@@ -124,3 +121,6 @@ In this version, a more thorough preprocessing has been made, performing `data t
 
 ### Conclusions
 Proposed improvements to the first iteration significantly improved the model's performance. However, as in the previous report, the model's error (**USD 59,113**) is still significant and unacceptable considering that it is half the value of 27% of the apartments for sale. There is more room for model improvement, which is also described in the [project's notebook](https://github.com/gpozzi/machine-learning/blob/master/projects/house_price_prediction/DSProyecto02.ipynb)
+
+# Requirements
+All the requirements will be given in the requirements.txt file. To install, run pip install -r requirements.txt

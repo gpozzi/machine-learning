@@ -70,8 +70,28 @@ It starts with a comprehensive `EDA` and applying some simple `data cleaning` te
   - Optimization of the best performing one
 - Conclusions
 
+### Some visuals
+
+![img](https://i.imgur.com/TQUSCsM.png)
+
+![img](https://i.imgur.com/6EJ0IsP.png)
+
+![img](https://i.imgur.com/ZncBweE.png)
+
+![img](https://i.imgur.com/No65L68.png)
+
+![img](https://i.imgur.com/oYR0MF9.png)
+
+![img](https://i.imgur.com/JW7TDxE.png)
+
+### Conclusions
+
+The value of the RMSE obtained (**US$ 138,384**) is also what some apartments cost, so a model with an error of this magnitude is not recommended to use in real world predictions. It presents some opportunities for improvement, which are best described in the [project's notebook](https://github.com/gpozzi/machine-learning/blob/master/projects/house_price_prediction/DSProject01.ipynb).
+
+---
+
 ## Iteration two
-In this version, a more thorough analysis has been performed, performing `data transformation` (imputation, encoding, outliers removal and data scaling) techniques and finally applying more advanced `machine learning regression models` (**XGBRegressor**, **Decision tree optimized with RandomSearchCV**, **XGBRegressor optimized with RandomSearchCV**, **RandomForest regressor**, **RandomForest optimized with RandomSearchCV**, **ADABoost optimized with RandomSearchCV** and **Polynomial regressor**))
+In this version, a more thorough preprocessing has been made, performing `data transformation` (imputation, encoding, outliers removal and data scaling) techniques and finally applying more advanced `machine learning regression models` (**XGBRegressor**, **Decision tree optimized with RandomSearchCV**, **XGBRegressor optimized with RandomSearchCV**, **RandomForest regressor**, **RandomForest optimized with RandomSearchCV**, **ADABoost optimized with RandomSearchCV** and **Polynomial regressor**).
 
 ### Index
 - Introduction
@@ -94,28 +114,13 @@ In this version, a more thorough analysis has been performed, performing `data t
 - Results interpretation
 - Conclusions
 
+### Some visuals
 
-# Some exploratory data analysis
+![img](https://i.imgur.com/zkMXTXv.png)
 
-![img](https://i.imgur.com/TQUSCsM.png)
+![img](https://i.imgur.com/ECrUenO.png)
 
-![img](https://i.imgur.com/6EJ0IsP.png)
+![img](https://i.imgur.com/ig7yjCW.png)
 
-![img](https://i.imgur.com/ZncBweE.png)
-
-![img](https://i.imgur.com/No65L68.png)
-
-![img](https://i.imgur.com/oYR0MF9.png)
-
-![img](https://i.imgur.com/JW7TDxE.png)
-
-# Conclusions
-
-Although the analysis carried out so far makes it possible to select the best regression model by comparing relative errors, the feasibility of performing price predictions should be taken into account, which is the objective of this document. It should be noted that US $ 138,384, which is the value of the RMSE, is also the value of some apartments, so an error of this magnitude is inadmissible.
-
-This model presents some opportunities for improvement, such as:
-
-- Better handling of missing values, such as imputation, could be done instead of removing these instances from the dataset
-- Categorical variables such as the neighborhood or perhaps the presence of some keywords within the description could be introduced to the analysis
-- Data external to the dataset could be used such as the location of some points of interest (such as subway stations, hospitals, schools or bus stops) relative to the properties using the coordinates
-- As a future improvement of the dataset and taking into account that the pricing of a property (and more so in a real estate market such as Argentina) can present large variations in a short period of time, a binary variable "`sale_status`" (with values like `sold` / `not sold`) could be added. This categorical variable would be easy to collect, and at the same time penalize excessively high prices, resulting in an improvement in the predictive capacity of the model.
+### Conclusions
+Proposed improvements to the first iteration significantly improved the model's performance. However, as in the previous report, the model's error (**USD 59,113**) is still significant and unacceptable considering that it is half the value of 27% of the apartments for sale. There is more room for model improvement, which is also described in the [project's notebook](https://github.com/gpozzi/machine-learning/blob/master/projects/house_price_prediction/DSProyecto02.ipynb)

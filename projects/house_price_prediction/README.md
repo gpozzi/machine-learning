@@ -1,6 +1,21 @@
 # Project at a glance: Real estate market analysis 🏡
 
-I have recently joined the Data team of a large real estate company. The first task assigned is to help appraisers value properties, as it's a difficult and sometimes subjective process. To do this, I propose to create a Machine Learning model that, given certain characteristics of the property, predicts its sale price.
+I have recently joined the Data team of a large real estate company. The first task assigned is to help appraisers value properties, as it's a difficult and sometimes subjective process. To do this, they propose to create a Machine Learning model that, given certain characteristics of the property, predicts its sale price.
+
+- Project tools:
+  - `Jupyter Notebook`
+  - `Numpy`
+  - `Pandas`
+  - `Seaborn`
+  - `Matplotlib`
+  - `Scikit Learn`
+  - `Scipy`
+
+- Techniques applied:
+  - Exploratory data analysis
+  - Data transformation
+  - Data cleaning
+  - Machine learning technique applied: **regression**
 
 ## Motivation
 Housing is one of human life's most essential needs, along with other fundamental needs such as food, water, and much more. Demand for houses grew rapidly over the years as  people's living standards improved. While there are people who make their house as an investment and property, yet most people around the world are buying a house as their shelter or as their livelihood.
@@ -37,20 +52,10 @@ The parameters included are:
 All the requirements will be given in the requirements.txt file. To install, run pip install -r requirements.txt
 
 ## Project description
-This project was made for [Acámica's](https://www.acamica.com/data-science) bootcamp and consists of two iteration:
-- **Iteration one**: it starts with a comprehensive `EDA` and applying some simple `data cleaning` techniques to end up building a `machine learning regression model` that performs better than a linear regression. Two models have been tried in this project: `decisionTreeRegressor` and `kNeighborsRegressor`
-- **Iteration two**: in this version, a more thorough analysis has been performed, performing `data transformation` (imputation, encoding, outliers removal and data scaling) techniques and finally applying more advanced `machine learning regression models` (`XGBRegressor`, `Decision tree optimized with RandomSearchCV`, `XGBRegressor optimized with RandomSearchCV`, `RandomForest regressor`, `RandomForest optimized with RandomSearchCV`, `ADABoost optimized with RandomSearchCV` and `Polynomial regressor`))
+This project was made for [Acámica's](https://www.acamica.com/data-science) data science bootcamp and consists of two iteration:
+- **Iteration one**: it starts with a comprehensive `EDA` and applying some simple `data cleaning` techniques to end up building a `machine learning regression model` that performs better than a linear regression. Two models have been tried in this project: **decisionTreeRegressor** and **kNeighborsRegressor**
 
-
-- Project tools:
-  - `Jupyter Notebook`
-  - `Numpy`
-  - `Pandas`
-  - `Seaborn`
-  - `Matplotlib`
-  - `Scikit Learn`
-
-
+### Index
 - Scope
 - Factors that influence house price
 - EDA and data cleaning
@@ -64,7 +69,29 @@ This project was made for [Acámica's](https://www.acamica.com/data-science) boo
   - Optimization of the best performing one
 - Conclusions
 
+- **Iteration two**: in this version, a more thorough analysis has been performed, performing `data transformation` (imputation, encoding, outliers removal and data scaling) techniques and finally applying more advanced `machine learning regression models` (**XGBRegressor**, **Decision tree optimized with RandomSearchCV**, **XGBRegressor optimized with RandomSearchCV**, **RandomForest regressor**, **RandomForest optimized with RandomSearchCV**, **ADABoost optimized with RandomSearchCV** and **Polynomial regressor**))
 
+### Index
+
+- Introduction
+- Data transformation
+  - Imputation
+  - Encoding (`one hot` and `label encoding`)
+  - Outliers removal
+  - Data scaling (`z-transformation` and `log-transformation`)
+- Machine Learning
+  - Stating results of previous project
+  - Model training and comparing benchmark with the following models:
+    - Decision tree optimized with RandomSearchCV
+    - XGBRegressor
+    - XGBRegressor optimized with RandomSearchCV
+    - RandomForest regressor
+    - RandomForest optimized with RandomSearchCV
+    - ADABoost optimized with RandomSearchCV
+    - Polynomial regressor
+  - Optimization of the best performing one
+- Results interpretation
+- Conclusions
 
 
 # Some exploratory data analysis

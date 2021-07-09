@@ -1,6 +1,6 @@
 # Project at a glance: Real estate market analysis 🏡
 
-I have recently joined the Data team of a large real estate company. The first task assigned is to help appraisers value properties, as it's a difficult and sometimes subjective process. To do this, they propose to create a Machine Learning model that, given certain characteristics of the property, predicts its sale price.
+I have recently joined the Data team of a large real estate company. The first task assigned is to help appraisers value properties, as it's a difficult and sometimes subjective process. To do this, I should develop a Machine Learning model that, given certain characteristics of the property, predicts its sale price.
 
 - Project tools:
   - `Jupyter Notebook`

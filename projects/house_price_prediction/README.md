@@ -53,9 +53,10 @@ All the requirements will be given in the requirements.txt file. To install, run
 
 ## Project description
 This project was made for [Acámica's](https://www.acamica.com/data-science) data science bootcamp and consists of two iteration:
-- **Iteration one**: it starts with a comprehensive `EDA` and applying some simple `data cleaning` techniques to end up building a `machine learning regression model` that performs better than a linear regression. Two models have been tried in this project: **decisionTreeRegressor** and **kNeighborsRegressor**
+### Iteration one
+It starts with a comprehensive `EDA` and applying some simple `data cleaning` techniques to end up building a `machine learning regression model` that performs better than a linear regression. Two models have been tried in this project: **decisionTreeRegressor** and **kNeighborsRegressor**
 
-### Index
+#### Index
 - Scope
 - Factors that influence house price
 - EDA and data cleaning
@@ -69,10 +70,10 @@ This project was made for [Acámica's](https://www.acamica.com/data-science) dat
   - Optimization of the best performing one
 - Conclusions
 
-- **Iteration two**: in this version, a more thorough analysis has been performed, performing `data transformation` (imputation, encoding, outliers removal and data scaling) techniques and finally applying more advanced `machine learning regression models` (**XGBRegressor**, **Decision tree optimized with RandomSearchCV**, **XGBRegressor optimized with RandomSearchCV**, **RandomForest regressor**, **RandomForest optimized with RandomSearchCV**, **ADABoost optimized with RandomSearchCV** and **Polynomial regressor**))
+### Iteration two
+In this version, a more thorough analysis has been performed, performing `data transformation` (imputation, encoding, outliers removal and data scaling) techniques and finally applying more advanced `machine learning regression models` (**XGBRegressor**, **Decision tree optimized with RandomSearchCV**, **XGBRegressor optimized with RandomSearchCV**, **RandomForest regressor**, **RandomForest optimized with RandomSearchCV**, **ADABoost optimized with RandomSearchCV** and **Polynomial regressor**))
 
-### Index
-
+#### Index
 - Introduction
 - Data transformation
   - Imputation

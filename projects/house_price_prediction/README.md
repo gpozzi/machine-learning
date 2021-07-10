@@ -51,7 +51,7 @@ The parameters included are:
 # Project description
 This project was made for [Acámica's](https://www.acamica.com/data-science) data science bootcamp and consists of two iterations:
 <details>
-<summary>## Iteration one</summary>
+<summary> ## Iteration one</summary>
 It starts with a comprehensive `EDA` and applying some simple `data cleaning` techniques to end up building a `machine learning regression model` that performs better than a linear regression. Two models have been tried in this project: **decisionTreeRegressor** and **kNeighborsRegressor**
 
 ### Index

@@ -50,7 +50,8 @@ The parameters included are:
 
 # Project description
 This project was made for [Acámica's](https://www.acamica.com/data-science) data science bootcamp and consists of two iterations:
-## Iteration one
+<details>
+<summary>## Iteration one</summary>
 It starts with a comprehensive `EDA` and applying some simple `data cleaning` techniques to end up building a `machine learning regression model` that performs better than a linear regression. Two models have been tried in this project: **decisionTreeRegressor** and **kNeighborsRegressor**
 
 ### Index
@@ -84,7 +85,7 @@ It starts with a comprehensive `EDA` and applying some simple `data cleaning` te
 ### Conclusions
 
 The value of the RMSE obtained (**US$ 138,384**) is also what some apartments cost, so a model with an error of this magnitude is not recommended to use in real world predictions. It presents some opportunities for improvement, which are best described in the [project's notebook](https://github.com/gpozzi/machine-learning/blob/master/projects/house_price_prediction/DSProject01.ipynb).
-
+</details>
 ---
 
 ## Iteration two

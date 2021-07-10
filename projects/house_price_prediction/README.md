@@ -2,6 +2,8 @@
 
 I have recently joined the Data team of a large real estate company. The first task assigned is to help appraisers value properties, as it's a difficult and sometimes subjective process. To do this, I should develop a Machine Learning model that, given certain characteristics of the property, predicts its sale price.
 
+<img src="https://image.freepik.com/vector-gratis/ilustracion-vector-concepto-abstracto-bienes-raices-agencia-inmobiliaria-mercado-inmobiliario-residencial-industrial-comercial-cartera-inversiones-propiedad-vivienda-metafora-abstracta-valor-propiedad_335657-1967.jpg" width=300>
+
 - Project tools:
   - `Jupyter Notebook`
   - `Numpy`

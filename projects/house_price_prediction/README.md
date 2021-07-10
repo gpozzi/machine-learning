@@ -49,13 +49,13 @@ The parameters included are:
 - `operation_type`: Type of operation (buy, rent). (categorical)
 
 # Project description
-This project was made for [Acámica's](https://www.acamica.com/data-science) data science bootcamp and consists of two iterations:
+This project was made for [Acámica's](https://www.acamica.com/data-science) data science bootcamp and consists of two iterations (click collapsibles to see details of each):
 <details>
 <summary>I</summary>
 
 ## Iteration one
 
-It starts with a comprehensive `EDA` and applying some simple `data cleaning` techniques to end up building a `machine learning regression model` that performs better than a linear regression. Two models have been tried in this project: **decisionTreeRegressor** and **kNeighborsRegressor**
+The first model starts with a comprehensive `EDA` and applying some simple `data cleaning` techniques to end up building a `machine learning regression model` that performs better than a linear regression. Two models have been tried in this project: **decisionTreeRegressor** and **kNeighborsRegressor**
 
 ### Index
 - Scope

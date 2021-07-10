@@ -72,17 +72,21 @@ The first model starts with a comprehensive `EDA` and applying some simple `data
 
 ### Index
 - Scope
-- Factors that influence house price
 - EDA and data cleaning
-  - Feature selection
-  - Additional analysis: correlation between population density and apartment size
+- Preprocessing
+  - Data wrangling
+  - Text normalization: stemming and lemmatization
 - Machine Learning
   - Selection of measurement of error
-  - Setting predictor and target variables
+  - Data wrangling
+  - Data vectorization
   - Setting benchmark model
-  - Comparing benchmark with other models
+  - Model training and comparing benchmark with the following models:
+    - LinearSVC
+    - RandomForest
   - Optimization of the best performing one
 - Conclusions
+- Next steps
 
 ### Some visuals
 

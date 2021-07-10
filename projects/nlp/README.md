@@ -1,6 +1,12 @@
 # Project at a glance: Natural Language Processing 💬
 
-The goal of this project is to deepen what was developed in project 01 [("First Machine Learning model")](https://github.com/gpozzi/machine-learning/tree/master/Project%2001) by applying the incorporated techniques (Data Transformation, Hyperparameter Optimization, Advanced Models, etc.) to generate a model that has a better performance than the model generated in the previous project.
+
+ in order, through natural language processing, to . After that, I repurposed the problem as a binary classification (positive / negative). Additionally, I classified the 3-star reviews through this methodology to see which product categories presented the highest tolerance on the part of users.
+
+
+The goal of this project is to be able to predict the score that a user would give given a review by using an Amazon dataset that contained reviews about different products
+
+deepen what was developed in project 01 [("First Machine Learning model")](https://github.com/gpozzi/machine-learning/tree/master/Project%2001) by applying the incorporated techniques (Data Transformation, Hyperparameter Optimization, Advanced Models, etc.) to generate a model that has a better performance than the model generated in the previous project.
 
 <img src="https://image.freepik.com/vector-gratis/ilustracion-concepto-abstracto-inteligencia-artificial-chatbot_335657-3723.jpg" width=300>
 
@@ -52,7 +58,13 @@ Dataset has been provided by [Amazon](https://registry.opendata.aws/amazon-revie
 The dataset contains reviews in Spanish collected between November 1, 2015 and November 1, 2019. Each record contains the review text, the review title, the star rating, an anonymized reviewer ID, an anonymized product ID and the coarse-grained product category (e.g. ‘books’, ‘appliances’, etc.) The corpus is balanced across stars, so each star rating constitutes 20% of the reviews in each language.
 
 There are **200,000**, **5,000** and **5,000** reviews in the training, development and test sets respectively. The maximum number of reviews per reviewer is 20 and the maximum number of reviews per product is 20. All reviews are truncated after 2,000 characters, and all reviews are at least 20 characters long.
+<summary> <details> **Dataset license**</details>
+# LICENSE
 
+By accessing the Multilingual Amazon Reviews Corpus ("Reviews Corpus"), you agree that the Reviews Corpus is an Amazon Service subject to the Amazon.com Conditions of Use (https://www.amazon.com/gp/help/customer/display.html/ref=footer_cou?ie=UTF8&nodeId=508088) and you agree to be bound by them, with the following additional conditions:
+
+In addition to the license rights granted under the Conditions of Use, Amazon or its content providers grant you a limited, non-exclusive, non-transferable, non-sublicensable, revocable license to access and use the Reviews Corpus for purposes of academic research. You may not resell, republish, or make any commercial use of the Reviews Corpus or its contents, including use of the Reviews Corpus for commercial research, such as research related to a funding or consultancy contract, internship, or other relationship in which the results are provided for a fee or delivered to a for-profit organization. You may not (a) link or associate content in the Reviews Corpus with any personal information (including Amazon customer accounts), or (b) attempt to determine the identity of the author of any content in the Reviews Corpus. If you violate any of the foregoing conditions, your license to access and use the Reviews Corpus will automatically terminate without prejudice to any of the other rights or remedies Amazon may have.
+</details>  
 The parameters included are:
 
 - `review_id`:  Identifier of the review. (String - categorical)

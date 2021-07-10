@@ -50,6 +50,13 @@ The parameters included are:
 - `property_type`: Type of property (house, apartment, PH). (categorical)
 - `operation_type`: Type of operation (buy, rent). (categorical)
 
+<details><summary>Dataset license</summary>
+
+All resources are under the Creative Commons CC BY 3.0 license, meaning that Properati invites everyone to use the data and distribute their products by any medium and format. They only ask in return to mention the source, indicating the changes made and to add a link to their site:
+
+Data provided by <a href='https://www.properati.com.ar'>Properati</a>
+</details>
+
 # Project description
 This project was made for [Acámica's](https://www.acamica.com/data-science) data science bootcamp and consists of two iterations (click collapsible sections to see details of each):
 <details>

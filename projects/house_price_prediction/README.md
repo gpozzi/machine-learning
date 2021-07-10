@@ -51,7 +51,7 @@ The parameters included are:
 # Project description
 This project was made for [Acámica's](https://www.acamica.com/data-science) data science bootcamp and consists of two iterations:
 <details>
-<summary> Iteration one</summary>
+<summary>I</summary>
 
 ## Iteration one
 
@@ -90,6 +90,8 @@ It starts with a comprehensive `EDA` and applying some simple `data cleaning` te
 The value of the RMSE obtained (**US$ 138,384**) is also what some apartments cost, so a model with an error of this magnitude is not recommended to use in real world predictions. It presents some opportunities for improvement, which are best described in the [project's notebook](https://github.com/gpozzi/machine-learning/blob/master/projects/house_price_prediction/DSProject01.ipynb).
 </details>
 ---
+<details>
+<summary>II</summary>
 
 ## Iteration two
 In this version, a more thorough preprocessing has been made, performing `data transformation` (imputation, encoding, outliers removal and data scaling) techniques and finally applying more advanced `machine learning regression models` (**XGBRegressor**, **Decision tree optimized with RandomSearchCV**, **XGBRegressor optimized with RandomSearchCV**, **RandomForest regressor**, **RandomForest optimized with RandomSearchCV**, **ADABoost optimized with RandomSearchCV** and **Polynomial regressor**).
@@ -125,6 +127,7 @@ In this version, a more thorough preprocessing has been made, performing `data t
 
 ### Conclusions
 Proposed improvements to the first iteration significantly improved the model's performance. However, as in the previous report, the model's error (**USD 59,113**) is still significant and unacceptable considering that it is half the value of 27% of the apartments for sale. There is more room for model improvement, which is also described in the [project's notebook](https://github.com/gpozzi/machine-learning/blob/master/projects/house_price_prediction/DSProyecto02.ipynb)
+</details>
 
 # Requirements
 All the requirements will be given in the requirements.txt file. To install, run pip install -r requirements.txt

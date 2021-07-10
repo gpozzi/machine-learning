@@ -12,6 +12,11 @@ The goal of this project is to be able to predict the score that a user would se
   - `Matplotlib`
   - `Scipy`
   - `Scikit Learn`
+  - `random`
+  - `es-core-news-sm`
+  - `collections`
+  - `itertools`
+  - `wordcloud`
 
 - Techniques applied:
   - Exploratory data analysis

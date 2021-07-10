@@ -1,12 +1,6 @@
 # Project at a glance: Natural Language Processing 💬
 
-
- in order, through natural language processing, to . After that, I repurposed the problem as a binary classification (positive / negative). Additionally, I classified the 3-star reviews through this methodology to see which product categories presented the highest tolerance on the part of users.
-
-
-The goal of this project is to be able to predict the score that a user would give given a review by using an Amazon dataset that contained reviews about different products
-
-deepen what was developed in project 01 [("First Machine Learning model")](https://github.com/gpozzi/machine-learning/tree/master/Project%2001) by applying the incorporated techniques (Data Transformation, Hyperparameter Optimization, Advanced Models, etc.) to generate a model that has a better performance than the model generated in the previous project.
+The goal of this project is to be able to predict the score that a user would set given a review by using an Amazon dataset that contained reviews about different products.
 
 <img src="https://image.freepik.com/vector-gratis/ilustracion-concepto-abstracto-inteligencia-artificial-chatbot_335657-3723.jpg" width=300>
 
@@ -19,27 +13,11 @@ deepen what was developed in project 01 [("First Machine Learning model")](https
   - `Scipy`
   - `Scikit Learn`
 
-This project is divided into five parts:
-
-- Introduction
-- Data transformation
-  - Imputation
-  - Encoding (`one hot` and `label encoding`)
-  - Outliers removal
-  - Data scaling (`z-transformation` and `log-transformation`)
-- Machine Learning
-  - Stating results of previous project
-  - Model training and comparing with benchmark of the following models:
-    - Decision tree optimized with RandomSearchCV
-    - XGBRegressor
-    - XGBRegressor optimized with RandomSearchCV
-    - RandomForest regressor
-    - RandomForest optimized with RandomSearchCV
-    - ADABoost optimized with RandomSearchCV
-    - Polynomial regressor
-  - Optimization of the best performing one
-- Results interpretation
-- Conclusions
+- Techniques applied:
+  - Exploratory data analysis
+  - Data transformation: stemming and lemmatization
+  - Data cleaning
+  - Machine learning technique applied: **classification**. Benchmarking, training, optimization and prediction.
 
 # Motivation
 As online marketplaces have been popular during the past decades, the online sellers and merchants ask their purchasers to share their opinions about the products they have bought. Everyday millions of reviews are generated all over the Internet about different products, services and places. This has made the Internet the most important source of getting ideas and opinions about a product or a service.
@@ -53,19 +31,15 @@ Amazon is one of the e-commerce giants that people are using every day for onlin
 This project is considering the sentiment classification problem for online reviews using a supervised machine learning model to determine the overall semantic of customer reviews by classifying them both by a five-star rating and also by sentiment (positive / negative). The data used in this study has been provided by Amazon.
 
 # Data description
+
+<img src="https://image.freepik.com/vector-gratis/investigacion-datos-estadisticos-indicadores-desempeno-empresa-retorno-inversion-razon-porcentual-fluctuacion-indices-cambio-significativo_335657-2552.jpg" width=200>
+
 Dataset has been provided by [Amazon](https://registry.opendata.aws/amazon-reviews-ml/), it contains 3 files: `dataset_es_dev.json`,`dataset_es_test.json` and `dataset_es_train.json`.
 
 The dataset contains reviews in Spanish collected between November 1, 2015 and November 1, 2019. Each record contains the review text, the review title, the star rating, an anonymized reviewer ID, an anonymized product ID and the coarse-grained product category (e.g. ‘books’, ‘appliances’, etc.) The corpus is balanced across stars, so each star rating constitutes 20% of the reviews in each language.
 
 There are **200,000**, **5,000** and **5,000** reviews in the training, development and test sets respectively. The maximum number of reviews per reviewer is 20 and the maximum number of reviews per product is 20. All reviews are truncated after 2,000 characters, and all reviews are at least 20 characters long.
-<details> <summary markdown="span">Dataset license</summary>
 
-# LICENSE
-
-By accessing the Multilingual Amazon Reviews Corpus ("Reviews Corpus"), you agree that the Reviews Corpus is an Amazon Service subject to the Amazon.com Conditions of Use (https://www.amazon.com/gp/help/customer/display.html/ref=footer_cou?ie=UTF8&nodeId=508088) and you agree to be bound by them, with the following additional conditions:
-
-In addition to the license rights granted under the Conditions of Use, Amazon or its content providers grant you a limited, non-exclusive, non-transferable, non-sublicensable, revocable license to access and use the Reviews Corpus for purposes of academic research. You may not resell, republish, or make any commercial use of the Reviews Corpus or its contents, including use of the Reviews Corpus for commercial research, such as research related to a funding or consultancy contract, internship, or other relationship in which the results are provided for a fee or delivered to a for-profit organization. You may not (a) link or associate content in the Reviews Corpus with any personal information (including Amazon customer accounts), or (b) attempt to determine the identity of the author of any content in the Reviews Corpus. If you violate any of the foregoing conditions, your license to access and use the Reviews Corpus will automatically terminate without prejudice to any of the other rights or remedies Amazon may have.
-</details>  
 The parameters included are:
 
 - `review_id`:  Identifier of the review. (String - categorical)
@@ -78,10 +52,85 @@ The parameters included are:
 - `language`: Identifier of the review language review was written in. (String - categorical)
 - `product_category`: Identifier of the product category. (String - categorical)
 
-# Requirements
-All the requirements will be given in the requirements.txt file. To install, run pip install -r requirements.txt
+<details> <summary markdown="span">Dataset license</summary>
 
-# Some exploratory data analysis
+# LICENSE
+
+By accessing the Multilingual Amazon Reviews Corpus ("Reviews Corpus"), you agree that the Reviews Corpus is an Amazon Service subject to the Amazon.com Conditions of Use (https://www.amazon.com/gp/help/customer/display.html/ref=footer_cou?ie=UTF8&nodeId=508088) and you agree to be bound by them, with the following additional conditions:
+
+In addition to the license rights granted under the Conditions of Use, Amazon or its content providers grant you a limited, non-exclusive, non-transferable, non-sublicensable, revocable license to access and use the Reviews Corpus for purposes of academic research. You may not resell, republish, or make any commercial use of the Reviews Corpus or its contents, including use of the Reviews Corpus for commercial research, such as research related to a funding or consultancy contract, internship, or other relationship in which the results are provided for a fee or delivered to a for-profit organization. You may not (a) link or associate content in the Reviews Corpus with any personal information (including Amazon customer accounts), or (b) attempt to determine the identity of the author of any content in the Reviews Corpus. If you violate any of the foregoing conditions, your license to access and use the Reviews Corpus will automatically terminate without prejudice to any of the other rights or remedies Amazon may have.
+</details>
+
+# Project description
+This project was made for [Acámica's](https://www.acamica.com/data-science) data science bootcamp and consists of two iterations (click collapsible sections to see details of each):
+<details>
+<summary>I</summary>
+
+## Iteration one
+
+The first model starts with a comprehensive `EDA` and applying some simple `data cleaning` techniques to end up building a `machine learning regression model` that performs better than a linear regression. Two models have been tried in this project: **decisionTreeRegressor** and **kNeighborsRegressor**
+
+### Index
+- Scope
+- Factors that influence house price
+- EDA and data cleaning
+  - Feature selection
+  - Additional analysis: correlation between population density and apartment size
+- Machine Learning
+  - Selection of measurement of error
+  - Setting predictor and target variables
+  - Setting benchmark model
+  - Comparing benchmark with other models
+  - Optimization of the best performing one
+- Conclusions
+
+### Some visuals
+
+![img](https://i.imgur.com/TQUSCsM.png)
+
+![img](https://i.imgur.com/6EJ0IsP.png)
+
+![img](https://i.imgur.com/ZncBweE.png)
+
+![img](https://i.imgur.com/No65L68.png)
+
+![img](https://i.imgur.com/oYR0MF9.png)
+
+![img](https://i.imgur.com/JW7TDxE.png)
+
+### Conclusions
+
+The value of the RMSE obtained (**US$ 138,384**) is also what some apartments cost, so a model with an error of this magnitude is not recommended to use in real world predictions. It presents some opportunities for improvement, which are best described in the [project's notebook](https://github.com/gpozzi/machine-learning/blob/master/projects/house_price_prediction/DSProject01.ipynb).
+</details>
+
+<details>
+<summary>II</summary>
+
+## Iteration two
+In this version, a more thorough preprocessing has been made, performing `data transformation` (imputation, encoding, outliers removal and data scaling) techniques and finally applying more advanced `machine learning regression models` (**XGBRegressor**, **Decision tree optimized with RandomSearchCV**, **XGBRegressor optimized with RandomSearchCV**, **RandomForest regressor**, **RandomForest optimized with RandomSearchCV**, **ADABoost optimized with RandomSearchCV** and **Polynomial regressor**).
+
+### Index
+- Introduction
+- Data transformation
+  - Imputation
+  - Encoding (`one hot` and `label encoding`)
+  - Outliers removal
+  - Data scaling (`z-transformation` and `log-transformation`)
+- Machine Learning
+  - Stating results of previous project
+  - Model training and comparing benchmark with the following models:
+    - Decision tree optimized with RandomSearchCV
+    - XGBRegressor
+    - XGBRegressor optimized with RandomSearchCV
+    - RandomForest regressor
+    - RandomForest optimized with RandomSearchCV
+    - ADABoost optimized with RandomSearchCV
+    - Polynomial regressor
+  - Optimization of the best performing one
+- Results interpretation
+- Conclusions
+
+### Some visuals
 
 ![img](https://i.imgur.com/zkMXTXv.png)
 
@@ -89,13 +138,10 @@ All the requirements will be given in the requirements.txt file. To install, run
 
 ![img](https://i.imgur.com/ig7yjCW.png)
 
-# Conclusions
-As expected, the proposed improvements, both preprocessing and the use of better predictive models in this report, significantly improved performance compared to the first project. Adding variables such as neighborhood, reducing the noise from outliers, scaling variables or not discarding so many instances just for having missing values greatly enriched the model.
+### Conclusions
+Proposed improvements to the first iteration significantly improved the model's performance. However, as in the previous report, the model's error (**USD 59,113**) is still significant and unacceptable considering that it is half the value of 27% of the apartments for sale. There is more room for model improvement, which is also described in the [project's notebook](https://github.com/gpozzi/machine-learning/blob/master/projects/house_price_prediction/DSProyecto02.ipynb)
+</details>
 
-However, as in the previous report, the mean square error of the best model (**USD 59,113**) is still significant and unacceptable considering that it is **half the value of 27% of the apartments for sale**.
 
-I reiterate some of the recommendations from the previous report to improve the performance of this model:
-
-- Data external to the dataset could be used such as the location of some points of interest (such as subway stations, hospitals, schools or bus stops) relative to the properties using the coordinates
-- As a future improvement of the dataset and taking into account that the pricing of a property (and more so in a real estate market such as Argentina) can present large variations in a short period of time, the variable "realization of the sale operation could be added ". This categorical variable would be easy to collect, and at the same time penalize excessively high prices, resulting in an improvement in the predictive capacity of the model.
-
+# Requirements
+All the requirements will be given in the requirements.txt file. To install, run pip install -r requirements.txt

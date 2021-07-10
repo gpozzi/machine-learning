@@ -4,7 +4,7 @@ The goal of this project is to be able to predict the score that a user would se
 
 <img src="https://image.freepik.com/vector-gratis/ilustracion-concepto-abstracto-inteligencia-artificial-chatbot_335657-3723.jpg" width=300>
 
-- Project tools:
+- Project tools / libraries:
   - `Jupyter Notebook`
   - `Numpy`
   - `Pandas`

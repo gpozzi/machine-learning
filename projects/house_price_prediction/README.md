@@ -89,7 +89,7 @@ It starts with a comprehensive `EDA` and applying some simple `data cleaning` te
 
 The value of the RMSE obtained (**US$ 138,384**) is also what some apartments cost, so a model with an error of this magnitude is not recommended to use in real world predictions. It presents some opportunities for improvement, which are best described in the [project's notebook](https://github.com/gpozzi/machine-learning/blob/master/projects/house_price_prediction/DSProject01.ipynb).
 </details>
----
+
 <details>
 <summary>II</summary>
 

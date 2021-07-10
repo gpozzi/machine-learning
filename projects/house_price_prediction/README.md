@@ -52,6 +52,8 @@ The parameters included are:
 
 <details><summary>Dataset license</summary>
 
+# License
+
 All resources are under the Creative Commons CC BY 3.0 license, meaning that Properati invites everyone to use the data and distribute their products by any medium and format. They only ask in return to mention the source, indicating the changes made and to add a link to their site:
 
 Data provided by <a href='https://www.properati.com.ar'>Properati</a>

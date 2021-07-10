@@ -49,7 +49,7 @@ The parameters included are:
 - `operation_type`: Type of operation (buy, rent). (categorical)
 
 # Project description
-This project was made for [Acámica's](https://www.acamica.com/data-science) data science bootcamp and consists of two iterations (click collapsibles to see details of each):
+This project was made for [Acámica's](https://www.acamica.com/data-science) data science bootcamp and consists of two iterations (click collapsible sections to see details of each):
 <details>
 <summary>I</summary>
 

@@ -8,8 +8,7 @@
 
 In this repository I will upload the projects submitted for the data scientist course taught by Acámica.
 
-# 2. Syllabus
-# 2. Course Overview
+# 2. Course overview
 
 > Data Science is a career designed for those who seek to learn to analyze data efficiently and apply modern tools in your work. Also for those people who are interested in knowing what it is about this area of knowledge, close to Computer Learning (Machine Learning), Deep Neural Networks (Deep Learning) and Artificial Intelligence.
 
@@ -20,8 +19,8 @@ learn from them, either by visualizing them correctly and efficiently, or by tra
 
 ## 2.1. Syllabus
 
-## Module 1: Introduction to Data Science <img src = "https://static.thenounproject.com/png/2245695-200.png" width = "25">
-### Topics:
+### Module 1: Introduction to Data Science <img src = "https://static.thenounproject.com/png/2245695-200.png" width = "25">
+#### Topics:
 - Programming (classes and functions)
 - Python and libraries: Numpy, Pandas, Matplotlib, Seaborn
 - Exploratory data analysis (EDA)
@@ -32,8 +31,8 @@ learn from them, either by visualizing them correctly and efficiently, or by tra
 - MAE
 - Train / test split
 
-## Module 2: Advanced Tools <img src = "https://static.thenounproject.com/png/788416-200.png" width = "25">
-### Topics:
+### Module 2: Advanced Tools <img src = "https://static.thenounproject.com/png/788416-200.png" width = "25">
+#### Topics:
 - Machine Learning in depth
 - Statistical foundations
 - Interpretation of models
@@ -43,8 +42,8 @@ learn from them, either by visualizing them correctly and efficiently, or by tra
 - Interpretation of models
 - Feature engineering: One Hot Encoding, LabelEncoding, Scaling, etc.
 
-## Module 3: Applications <img src = "https://static.thenounproject.com/png/2985136-200.png" width = "30">
-### Topics:
+### Module 3: Applications <img src = "https://static.thenounproject.com/png/2985136-200.png" width = "30">
+#### Topics:
 - Machine Learning in depth
 - Statistical foundations
 - Interpretation of models
@@ -54,7 +53,7 @@ learn from them, either by visualizing them correctly and efficiently, or by tra
 - Interpretation of models
 - Feature engineering: One Hot Encoding, LabelEncoding, Scaling, etc.
 
-# 3.  The data
+# 3. The data
 
 Throughout the course I worked with two business cases, explained in depth in the following links:
 

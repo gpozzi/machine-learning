@@ -10,7 +10,7 @@ In this repository I will upload the projects submitted for the data scientist c
 
 # 2. Course overview
 
-> Data Science is a career designed for those who seek to learn to analyze data efficiently and apply modern tools in your work. Also for those people who are interested in knowing what it is about this area of knowledge, close to Computer Learning (Machine Learning), Deep Neural Networks (Deep Learning) and Artificial Intelligence.
+> Data Science is a career designed for those who seek to learn to analyze data efficiently and apply modern tools in their work. Also for those people who are interested in knowing what it is about this area of knowledge, close to Computer Learning (Machine Learning), Deep Neural Networks (Deep Learning) and Artificial Intelligence.
 
 > As a graduate, you will be able to convert data into information, automate processes and advise on decision making. You will have the ability to take data in a "raw" state and
 learn from them, either by visualizing them correctly and efficiently, or by training models (Statistical and / or Machine Learning) that learn from them and help you predict. In addition, you will have essential statistical fundamentals and a solid foundation of the Python programming language, oriented to data analysis.

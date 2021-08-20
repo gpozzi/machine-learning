@@ -17,7 +17,8 @@ I have recently joined the Data team of a large real estate company. The first t
   - Exploratory data analysis.
   - Data transformation.
   - Data cleaning.
-  - Machine learning technique applied: **regression**.
+  - Machine learning method applied: **regression**.
+  - **`Supervised learning`**
 
 # Motivation
 Housing is one of human life's most essential needs, along with other fundamental needs such as food, water, and much more. Demand for houses grew rapidly over the years as  people's living standards improved. While there are people who make their house as an investment and property, yet most people around the world are buying a house as their shelter or as their livelihood.

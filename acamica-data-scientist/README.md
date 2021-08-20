@@ -6,25 +6,58 @@
 
 # 1. Scope
 
-In this repository I will upload the projects submitted for the MySQL course taught by Duke University, taken in Coursera platform
+In this repository I will upload the projects submitted for the data scientist course taught by Acámica.
 
+# 2. Syllabus
 # 2. Course Overview
 
-> This course is an introduction to how to use relational databases in business analysis.  You will learn how relational databases work, and how to use entity-relationship diagrams to display the structure of the data held within them.  This knowledge will help you understand how data needs to be collected in business contexts, and help you identify features you want to consider if you are involved in implementing new data collection efforts.  You will also learn how to execute the most useful query and table aggregation statements for business analysts, and practice using them with real databases. No more waiting 48 hours for someone else in the company to provide data to you – you will be able to get the data by yourself!
+> Data Science is a career designed for those who seek to learn to analyze data efficiently and apply modern tools in your work. Also for those people who are interested in knowing what it is about this area of knowledge, close to Computer Learning (Machine Learning), Deep Neural Networks (Deep Learning) and Artificial Intelligence.
 
->By the end of this course, you will have a clear understanding of how relational databases work, and have a portfolio of queries you can show potential employers. Businesses are collecting increasing amounts of information with the hope that data will yield novel insights into how to improve businesses. Analysts that understand how to access this data – this means you! – will have a strong competitive advantage in this data-smitten business world.
+> As a graduate, you will be able to convert data into information, automate processes and advise on decision making. You will have the ability to take data in a "raw" state and
+learn from them, either by visualizing them correctly and efficiently, or by training models (Statistical and / or Machine Learning) that learn from them and help you predict. In addition, you will have essential statistical fundamentals and a solid foundation of the Python programming language, oriented to data analysis.
+
+> But the most important thing is that you will be able to generate your own questions and you will have the tools to answer them.
 
 ## 2.1. Syllabus
 
-- Week 1 - ER Diagrams, RS, database concepts
-- Week 2 - Select, where, from, order by, limit, operations
-- Week 3 - Group by, having, distinct, operators, Inner Joins, Outer Joins
-- Week 4 - Subqueries & more Operators + examples
+## Module 1: Introduction to Data Science <img src = "https://static.thenounproject.com/png/2245695-200.png" width = "25">
+### Topics:
+- Programming (classes and functions)
+- Python and libraries: Numpy, Pandas, Matplotlib, Seaborn
+- Exploratory data analysis (EDA)
+- Introduction to Machine Learning: classification and regression
+- Chart types
+- Basic models (trees, KNN, linear regression, logistic regression)
+- Evaluation metrics
+- MAE
+- Train / test split
+
+## Module 2: Advanced Tools <img src = "https://static.thenounproject.com/png/788416-200.png" width = "25">
+### Topics:
+- Machine Learning in depth
+- Statistical foundations
+- Interpretation of models
+- Statistics: distributions, Bayes theorem
+- Advanced models: assemblies, SVM, Naive Bayes, neural networks
+- Parameter optimization
+- Interpretation of models
+- Feature engineering: One Hot Encoding, LabelEncoding, Scaling, etc.
+
+## Module 3: Applications <img src = "https://static.thenounproject.com/png/2985136-200.png" width = "30">
+### Topics:
+- Machine Learning in depth
+- Statistical foundations
+- Interpretation of models
+-Statistics: distributions, Bayes theorem
+- Advanced models: assemblies, SVM, Naive Bayes, neural networks
+- Parameter optimization
+- Interpretation of models
+- Feature engineering: One Hot Encoding, LabelEncoding, Scaling, etc.
 
 # 3.  The data
 
-Throughout the course I worked with two datasets, each one with a different business case, explained in the following links:
+Throughout the course I worked with two business cases, explained in depth in the following links:
 
-- [**Dognition**](https://github.com/gpozzi/sql-projects/tree/main/managing-big-data-with-sql/dognition)
+- [**House Price Prediction**](https://github.com/gpozzi/machine-learning/tree/master/acamica-data-scientist/house_price_prediction): *I have recently joined the Data team of a large real estate company. The first task assigned is to help appraisers value properties, as it's a difficult and sometimes subjective process. To do this, I should develop a Machine Learning model that, given certain characteristics of the property, predicts its sale price.*
 
-- [**Dillards**](https://github.com/gpozzi/sql-projects/tree/main/managing-big-data-with-sql/dillards)
+- [**NLP**](https://github.com/gpozzi/machine-learning/tree/master/acamica-data-scientist/nlp): *The goal of this project is to be able to predict the score that a user would set given a review by using an Amazon dataset that contained reviews about different products.*

@@ -57,6 +57,6 @@ learn from them, either by visualizing them correctly and efficiently, or by tra
 
 Throughout the course I worked with two business cases, explained in depth in the following links:
 
-- [**House Price Prediction**](https://github.com/gpozzi/machine-learning/tree/master/acamica-data-scientist/house_price_prediction): *I have recently joined the Data team of a large real estate company. The first task assigned is to help appraisers value properties, as it's a difficult and sometimes subjective process. To do this, I should develop a Machine Learning model that, given certain characteristics of the property, predicts its sale price.*
+- 🏘️ [**House Price Prediction**](https://github.com/gpozzi/machine-learning/tree/master/acamica-data-scientist/house_price_prediction): *I have recently joined the Data team of a large real estate company. The first task assigned is to help appraisers value properties, as it's a difficult and sometimes subjective process. To do this, I should develop a Machine Learning model that, given certain characteristics of the property, predicts its sale price.*
 
-- [**NLP**](https://github.com/gpozzi/machine-learning/tree/master/acamica-data-scientist/nlp): *The goal of this project is to be able to predict the score that a user would set given a review by using an Amazon dataset that contained reviews about different products.*
+- 💬 [**NLP**](https://github.com/gpozzi/machine-learning/tree/master/acamica-data-scientist/nlp): *The goal of this project is to be able to predict the score that a user would set given a review by using an Amazon dataset that contained reviews about different products.*

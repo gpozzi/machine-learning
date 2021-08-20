@@ -1,4 +1,4 @@
-# Course overview: Data Scientist Certification (Acámica)
+# Data Scientist Certification (Acámica)
 
 <img src="https://user-images.githubusercontent.com/52865532/130279150-f94c9ab4-0ab9-4bba-97a4-579d6c459088.jpg" width="300">
 

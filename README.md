@@ -4,4 +4,4 @@
 
 In this repo, I'll be documenting all my projects done to practice Machine Learning.
 
-Acámica's Data Scientist Certification
+- [Acámica's Data Scientist Certification](https://github.com/gpozzi/machine-learning/tree/master/acamica-data-scientist)

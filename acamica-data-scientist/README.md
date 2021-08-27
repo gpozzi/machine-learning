@@ -7,7 +7,8 @@
 # 1. Scope
 
 In this repository I will upload the projects submitted for the data scientist course taught by Acámica. This course has been co-created in collaboration with Globant, IBM, R/GA and Prodigous
-<img src="https://www.globant.com/sites/default/files/2021-04/Globant_.png" width="300"> <img src="https://logos-marcas.com/wp-content/uploads/2020/09/IBM-Logotipo-1972-presente.jpg" width="300"> <img src="https://www.totalmedios.com/img/noticias/2020/01/5e298aa169c58__838x390.jpg" width="300"> <img src="https://lapublicidad.net/wp-content/uploads/2018/04/prodigious-logo.jpg" width="300"> 
+
+<img src="https://www.globant.com/sites/default/files/2021-04/Globant_.png" width="200"> <img src="https://logos-marcas.com/wp-content/uploads/2020/09/IBM-Logotipo-1972-presente.jpg" width="200"> <img src="https://www.totalmedios.com/img/noticias/2020/01/5e298aa169c58__838x390.jpg" width="200"> <img src="https://lapublicidad.net/wp-content/uploads/2018/04/prodigious-logo.jpg" width="200"> 
 
 
 

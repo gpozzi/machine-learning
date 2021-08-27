@@ -57,7 +57,7 @@ learn from them, either by visualizing them correctly and efficiently, or by tra
 - Interpretation of models
 - Feature engineering: One Hot Encoding, LabelEncoding, Scaling, etc.
 
-# 3. The data
+# 3. Business cases
 
 Throughout the course I worked with two business cases, explained in depth in the following links:
 

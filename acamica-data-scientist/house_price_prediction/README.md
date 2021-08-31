@@ -63,7 +63,7 @@ Data provided by <a href='https://www.properati.com.ar'>Properati</a>
 # Project description
 This project was made for [Acámica's](https://www.acamica.com/data-science) data science bootcamp and consists of two iterations (click collapsible sections to see details of each):
 <details>
-<summary>I</summary>
+<summary>Iteration one</summary>
 
 ## Iteration one
 
@@ -85,25 +85,27 @@ The first model starts with a comprehensive `EDA` and applying some simple `data
 
 ### Some visuals
 
-![img](https://i.imgur.com/TQUSCsM.png)
+![image](https://user-images.githubusercontent.com/52865532/131568014-a7d2d09d-c162-400b-adbf-a693bba154d0.png)
 
-![img](https://i.imgur.com/6EJ0IsP.png)
-
-![img](https://i.imgur.com/ZncBweE.png)
-
-![img](https://i.imgur.com/No65L68.png)
-
-![img](https://i.imgur.com/oYR0MF9.png)
-
-![img](https://i.imgur.com/JW7TDxE.png)
-
+![image](https://user-images.githubusercontent.com/52865532/131568102-f2210c92-521b-4fc3-987d-d20a71ee0189.png)
+  
+![image](https://user-images.githubusercontent.com/52865532/131568179-9c248490-c2ce-4a88-8f46-4bf283024b50.png)
+  
+![image](https://user-images.githubusercontent.com/52865532/131568260-74e1aed9-b470-40f1-9b6e-0e074645320f.png)
+  
+![image](https://user-images.githubusercontent.com/52865532/131568348-a2379761-c67c-46b3-9241-9642c2d6bd5e.png)
+  
+![image](https://user-images.githubusercontent.com/52865532/131568396-137c65fc-860e-4f8a-acca-4d8d7511100e.png)
+  
+![image](https://user-images.githubusercontent.com/52865532/131568442-f272f29f-fdd0-4cc6-8cbb-2e822258b1a4.png)
+  
 ### Conclusions
 
 The value of the RMSE obtained (**US$ 138,384**) is also what some apartments cost, so a model with an error of this magnitude is not recommended to use in real world predictions. It presents some opportunities for improvement, which are best described in the [project's notebook](https://github.com/gpozzi/machine-learning/blob/master/projects/house_price_prediction/DSProject01.ipynb).
 </details>
 
 <details>
-<summary>II</summary>
+<summary>Iteration two</summary>
 
 ## Iteration two
 In this version, a more thorough preprocessing has been made, performing `data transformation` (imputation, encoding, outliers removal and data scaling) techniques and finally applying more advanced `machine learning regression models` (**XGBRegressor**, **Decision tree optimized with RandomSearchCV**, **XGBRegressor optimized with RandomSearchCV**, **RandomForest regressor**, **RandomForest optimized with RandomSearchCV**, **ADABoost optimized with RandomSearchCV** and **Polynomial regressor**).

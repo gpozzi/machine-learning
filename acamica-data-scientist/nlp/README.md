@@ -70,7 +70,7 @@ In addition to the license rights granted under the Conditions of Use, Amazon or
 # Project description
 This project was made for [Acámica's](https://www.acamica.com/data-science) data science bootcamp and consists of two iterations (click collapsible sections to see details of each):
 <details>
-<summary>I</summary>
+<summary>Iteration one</summary>
 
 ## Iteration one
 
@@ -114,7 +114,7 @@ The value of the RMSE obtained (**US$ 138,384**) is also what some apartments co
 </details>
 
 <details>
-<summary>II</summary>
+<summary>Iteration two</summary>
 
 ## Iteration two
 In this version, a more thorough preprocessing has been made, performing `data transformation` (imputation, encoding, outliers removal and data scaling) techniques and finally applying more advanced `machine learning regression models` (**XGBRegressor**, **Decision tree optimized with RandomSearchCV**, **XGBRegressor optimized with RandomSearchCV**, **RandomForest regressor**, **RandomForest optimized with RandomSearchCV**, **ADABoost optimized with RandomSearchCV** and **Polynomial regressor**).
@@ -149,7 +149,17 @@ In this version, a more thorough preprocessing has been made, performing `data t
 ![img](https://i.imgur.com/ig7yjCW.png)
 
 ### Conclusions
-Proposed improvements to the first iteration significantly improved the model's performance. However, as in the previous report, the model's error (**USD 59,113**) is still significant and unacceptable considering that it is half the value of 27% of the apartments for sale. There is more room for model improvement, which is also described in the [project's notebook](https://github.com/gpozzi/machine-learning/blob/master/projects/house_price_prediction/DSProyecto02.ipynb)
+
+We can observe that what the model loses in detail when changing to a binary classification it gains in greater robustness of its predictions.
+
+Also, within the "neutral" reviews (3 stars) we can see a marked bias of users to classify apparently negative reviews as neutral, more marked in the categories "shoes", "beauty", "groceries", "pet products" and "wireless. There are no categories in which the bias is inverse, so I suppose that the user, when faced with a somewhat positive experience, tends to rate it with 4 stars, while if the experience is not very satisfactory, it tends to qualify it as neutral.
+
+Without necessarily substituting 5-star ratings, some benefits of implementing an algorithm that classifies ratings in a binary way could be:
+
+- It can serve to penalize the score of poorly rated reviews, where the user writes a mostly positive text and presses 1 or 2 stars, or viceversa.
+- It allows to identify users that are consistently generous or, on the contrary, too demanding with the scores to qualify their opinion in the final score and improve its quality.
+- They can be used to analyze topics in greater depth, such as the one developed on apparently neutral reviews, allowing them to be processed without depending too much on the user's numerical rating, for example, to be able to adjust the ratings due to the perception bias of the category. Thus, if a category has a marked tendency to undervalue products (with a greater number of positive opinions on neutral scores), the opinion of users about this category could be nuanced, compensating for this bias in some way in the calculation of the product or seller score. In this way, product ratings from different categories could be comparable to each other.
+- Finally, it should be mentioned that there is room for improvement for the model, although the accuracy obtained is satisfactory for the utility that it is intended to give.
 </details>
 
 

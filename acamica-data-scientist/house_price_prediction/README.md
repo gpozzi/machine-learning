@@ -131,11 +131,14 @@ In this version, a more thorough preprocessing has been made, performing `data t
 
 ### Some visuals
 
-![img](https://i.imgur.com/zkMXTXv.png)
+![image](https://user-images.githubusercontent.com/52865532/131567565-4de13120-61e2-4177-9b83-eb7c0648affe.png)
+
+![image](https://user-images.githubusercontent.com/52865532/131567669-3c30093f-eba0-4b4b-a987-6269d9a1d476.png)
+  
+![image](https://user-images.githubusercontent.com/52865532/131567428-7a2b9e68-c748-4125-b781-26ee100135eb.png)
 
 ![img](https://i.imgur.com/ECrUenO.png)
 
-![img](https://i.imgur.com/ig7yjCW.png)
 
 ### Conclusions
 Proposed improvements to the first iteration significantly improved the model's performance. However, as in the previous report, the model's error (**USD 59,113**) is still significant and unacceptable considering that it is half the value of 27% of the apartments for sale. There is more room for model improvement, which is also described in the [project's notebook](https://github.com/gpozzi/machine-learning/blob/master/projects/house_price_prediction/DSProyecto02.ipynb)

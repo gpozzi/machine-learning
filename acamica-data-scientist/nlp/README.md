@@ -78,13 +78,12 @@ The first model starts with a comprehensive `EDA` and applying some simple `data
 
 ### Index
 - Scope
-- EDA and data cleaning
-- Preprocessing
-  - Data wrangling
+- EDA and preprocessing
+  - EDA
   - Text normalization: stemming and lemmatization
 - Machine Learning
-  - Selection of measurement of error
-  - Data wrangling
+  - Metric selection
+  - Transformations
   - Data vectorization
   - Setting benchmark model
   - Model training and comparing benchmark with the following models:
@@ -96,18 +95,19 @@ The first model starts with a comprehensive `EDA` and applying some simple `data
 
 ### Some visuals
 
-![img](https://i.imgur.com/TQUSCsM.png)
+![image](https://user-images.githubusercontent.com/52865532/131766302-ce54c9ad-f9a7-469c-8724-0090330990d6.png)
+  
+![image](https://user-images.githubusercontent.com/52865532/131766441-52b030de-2f9f-44ce-be38-70836e689c69.png)
+  
+![image](https://user-images.githubusercontent.com/52865532/131766565-362cd79a-2065-4686-b72a-1306c63abed5.png)
 
-![img](https://i.imgur.com/6EJ0IsP.png)
+![image](https://user-images.githubusercontent.com/52865532/131766519-9f017ec2-66b1-4bce-b493-946d1811f145.png)
+  
+![image](https://user-images.githubusercontent.com/52865532/131769084-afdd0fcb-19cc-490d-9a37-90c0f273ce5a.png)
 
-![img](https://i.imgur.com/ZncBweE.png)
+![image](https://user-images.githubusercontent.com/52865532/131769133-a7a6558d-83db-4a7a-b342-56a39b3df26a.png)
 
-![img](https://i.imgur.com/No65L68.png)
-
-![img](https://i.imgur.com/oYR0MF9.png)
-
-![img](https://i.imgur.com/JW7TDxE.png)
-
+  
 ### Conclusions
 
 We can conclude that little can be done to improve the performance of the model, either by adjusting the Tf-idf or optimizing model's hyperparameters. From the confusion matrix we see that the ability to predict 4 stars improved a bit to almost match the performance of 2 stars, as opposed to the non-optimized one. Reviews of intermediate scores will mark the roof of the model's performance, and beyond rigorous optimization the gains from a certain point will be marginal.

@@ -101,12 +101,9 @@ The first model starts with a comprehensive `EDA` and applying some simple `data
   
 ![image](https://user-images.githubusercontent.com/52865532/131766565-362cd79a-2065-4686-b72a-1306c63abed5.png)
 
-![image](https://user-images.githubusercontent.com/52865532/131766519-9f017ec2-66b1-4bce-b493-946d1811f145.png)
+![image](https://user-images.githubusercontent.com/52865532/131769133-a7a6558d-83db-4a7a-b342-56a39b3df26a.png)
   
 ![image](https://user-images.githubusercontent.com/52865532/131769084-afdd0fcb-19cc-490d-9a37-90c0f273ce5a.png)
-
-![image](https://user-images.githubusercontent.com/52865532/131769133-a7a6558d-83db-4a7a-b342-56a39b3df26a.png)
-
   
 ### Conclusions
 

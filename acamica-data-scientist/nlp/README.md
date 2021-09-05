@@ -74,7 +74,7 @@ This project was made for [Acámica's](https://www.acamica.com/data-science) dat
 
 ## Iteration one
 
-The first model starts with a comprehensive `EDA` and preprocessing, which includes text normalization through SpaCy pipeline (`tok2vec`, `morphologizer`, `parser`, `ner`, `attribute_ruler` and `lemmatizer`), stopwords removal and lemmatization in order to pass words to improve model's accuracy. Then, a performance metric has been selected.
+The first model starts with a comprehensive `EDA` and preprocessing, which includes text normalization through SpaCy pipeline (`tok2vec`, `morphologizer`, `parser`, `ner`, `attribute_ruler` and `lemmatizer`), stopwords removal and lemmatization in order to improve model's accuracy. Then, a performance metric has been selected.
   
 After that, a benchmark model has been developed and compared with other two other models in order to determine the best performing one. The one that showed the best accuracy has had its hyperparameters optimized and finally some conclusions have been made about the performance and the methodology applied.
 

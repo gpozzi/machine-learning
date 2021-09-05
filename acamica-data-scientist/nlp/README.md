@@ -109,11 +109,11 @@ After that, a benchmark model has been developed and compared with other two oth
   
 ### Conclusions
 
-We can conclude that little can be done to improve the performance of the model, either by adjusting the Tf-idf or optimizing model's hyperparameters. From the confusion matrix we see that the ability to predict 4 stars improved a bit to almost match the performance of 2 stars, as opposed to the non-optimized one. Reviews of intermediate scores will mark the roof of the model's performance, and beyond rigorous optimization the gains from a certain point will be marginal.
+We can conclude that little can be done to improve the performance of the model, either by adjusting the Tf-idf or optimizing model's hyperparameters. From the confusion matrix we see that with some adjustments the ability to predict 4 stars improved a bit to almost match the performance of 2 stars, as opposed to the non-optimized one. Reviews of intermediate scores will mark the roof of the model's performance, and beyond rigorous optimization the gains from a certain point will be marginal.
 
 There will always be a limit to the ability of a Machine Learning model to classify scores on a scale of 1 to 5. This is due to an inherent limitation of the language due to the lack of distinctive words in intermediate reviews and because they tend to have as many good words as bad ones.
 
-Beyond this, the classification of the reviews in 5 classes, depending on the use of this information, could be trivial, since knowing if a product has 2 or 3 stars would not provide valuable and actionable information. Converting this problem to a binary classification (positive / negative) could be more practical and at the same time would greatly improve the performance of the model. This work will be done in the next iteration
+Beyond this, the classification of the reviews in 5 classes, depending on the use of this information, appears to be trivial, since knowing if a product has 2 or 3 stars would not provide valuable and actionable information. Converting this problem to a binary classification (positive / negative) could be more practical and at the same time would greatly improve the performance of the model. This work will be done in the next iteration.
 </details>
 
 <details>

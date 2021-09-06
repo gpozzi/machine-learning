@@ -28,7 +28,6 @@ The goal of this project is to be able to predict the score that a user would se
   - Data cleaning.
   - **Supervised machine learning**
   - ML method applied: **classification**.
--  
 
 # Motivation
 As online marketplaces have been popular during the past decades, the online sellers and merchants ask their purchasers to share their opinions about the products they have bought. Everyday millions of reviews are generated all over the Internet about different products, services and places. This has made the Internet the most important source of getting ideas and opinions about a product or a service.

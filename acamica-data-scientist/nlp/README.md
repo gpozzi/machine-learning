@@ -5,6 +5,7 @@ The goal of this project is to be able to predict the score that a user would se
 <img src="https://image.freepik.com/vector-gratis/ilustracion-concepto-abstracto-inteligencia-artificial-chatbot_335657-3723.jpg" width=300>
 
 - Project tools / libraries:
+  - `Python`
   - `Jupyter Notebook`
   - `Numpy`
   - `Pandas`
@@ -79,10 +80,10 @@ The first model starts with a comprehensive `EDA` and preprocessing, which inclu
 After that, a benchmark model has been developed and compared with other two other models in order to determine the best performing one. The one that showed the best accuracy has had its hyperparameters optimized and finally some conclusions have been made about the performance and the methodology applied.
 
 ### Index
-- Scope
+- [Scope](https://render.githubusercontent.com/view/ipynb?color_mode=light&commit=57a0e2af23b7242d0f2ca6bf955e0fb9ce619ae2&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f67706f7a7a692f6d616368696e652d6c6561726e696e672f353761306532616632336237323432643066326361366266393535653066623963653631396165322f6163616d6963612d646174612d736369656e746973742f6e6c702f44535f50726f6a6563745f30335f4e4c502e6970796e62&nwo=gpozzi%2Fmachine-learning&path=acamica-data-scientist%2Fnlp%2FDS_Project_03_NLP.ipynb&repository_id=273610133&repository_type=Repository#1.-Scope)
 - EDA and preprocessing
   - EDA
-  - Text normalization: stemming and lemmatization
+  - Review preprocessing
 - Machine Learning
   - Metric selection
   - Transformations
@@ -120,3 +121,17 @@ Beyond this, the classification of the reviews in 5 classes, depending on the us
 <summary>Iteration two</summary>
 
 ## Iteration two
+
+  ### Index
+- Scope
+- Recap: iteration I
+  - Results
+- Iteration II: model repurposing
+  - Motivation: the 5-star scale problem
+  - Preprocessing
+  - Vectorization
+  - Model training and optimization
+- Analysis: 3-star reviews
+- Conclusions
+  
+  ### Some visuals

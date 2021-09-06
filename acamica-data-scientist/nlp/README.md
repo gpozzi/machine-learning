@@ -124,7 +124,7 @@ Beyond this, the classification of the reviews in 5 classes, depending on the us
 
 
   
-  ### Index
+### Index
 - Scope
 - Recap: iteration I
   - Results
@@ -136,7 +136,7 @@ Beyond this, the classification of the reviews in 5 classes, depending on the us
 - Analysis: 3-star reviews
 - Conclusions
   
-  ### Some visuals
+### Some visuals
   
 ![image](https://user-images.githubusercontent.com/52865532/132253770-739842c6-91a9-4468-ad72-6144588a42a4.png)
 
@@ -144,7 +144,7 @@ Beyond this, the classification of the reviews in 5 classes, depending on the us
   
 ![image](https://user-images.githubusercontent.com/52865532/132253752-483c9346-98a0-4eaf-a14e-ff287e4e8beb.png)
 
-  ### Conclusions
+### Conclusions
 - We can observe that what the model loses in detail when changing to a binary classification it gains in greater robustness of its predictions.
 
 - Within the "neutral" reviews (3 stars) we can see a marked bias of users to classify apparently negative reviews as neutral, more pronounced in the categories `shoes`, `beauty`, `grocery`, `pet_products` and `wireless`. There are no categories in which the bias is inverse, so I assume that the user, faced with little-above-average experience, tends to rate it with 4 stars, while if the experience is not very satisfactory, it tends to qualify it as neutral.

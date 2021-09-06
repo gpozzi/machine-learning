@@ -41,37 +41,6 @@ Amazon is one of the e-commerce giants that people are using every day for onlin
 
 This project is considering the sentiment classification problem for online reviews using a supervised machine learning model to determine the overall semantic of customer reviews by classifying them both by a five-star rating and also by sentiment (positive / negative). The data used in this study has been provided by Amazon.
 
-# Data description
-
-<img src="https://image.freepik.com/vector-gratis/investigacion-datos-estadisticos-indicadores-desempeno-empresa-retorno-inversion-razon-porcentual-fluctuacion-indices-cambio-significativo_335657-2552.jpg" width=200>
-
-Dataset has been provided by [Amazon](https://registry.opendata.aws/amazon-reviews-ml/), it contains 3 files: `dataset_es_dev.json`,`dataset_es_test.json` and `dataset_es_train.json`.
-
-The dataset contains reviews in Spanish collected between November 1, 2015 and November 1, 2019. Each record contains the review text, the review title, the star rating, an anonymized reviewer ID, an anonymized product ID and the coarse-grained product category (e.g. ‘books’, ‘appliances’, etc.) The corpus is balanced across stars, so each star rating constitutes 20% of the reviews in each language.
-
-There are **200,000**, **5,000** and **5,000** reviews in the training, development and test sets respectively. The maximum number of reviews per reviewer is 20 and the maximum number of reviews per product is 20. All reviews are truncated after 2,000 characters, and all reviews are at least 20 characters long.
-
-The parameters included are:
-
-- `review_id`:  Identifier of the review. (String - categorical)
-- `product_id`: Identifier of the product being reviewed. (String - categorical)
-- `created_on`: Identifier of the date review was written in. (Timestamp - numerical)
-- `reviewer_id`: Identifier of the reviewer. (String - categorical)
-- `stars`: Number of stars given in current review. (Int - numerical)
-- `review_body`: Text body of the review. (String - categorical)
-- `review_title`: Text title of the review. (String - categorical)
-- `language`: Identifier of the review language review was written in. (String - categorical)
-- `product_category`: Identifier of the product category. (String - categorical)
-
-<details> <summary markdown="span">Dataset license</summary>
-
-# LICENSE
-
-By accessing the Multilingual Amazon Reviews Corpus ("Reviews Corpus"), you agree that the Reviews Corpus is an Amazon Service subject to the Amazon.com Conditions of Use (https://www.amazon.com/gp/help/customer/display.html/ref=footer_cou?ie=UTF8&nodeId=508088) and you agree to be bound by them, with the following additional conditions:
-
-In addition to the license rights granted under the Conditions of Use, Amazon or its content providers grant you a limited, non-exclusive, non-transferable, non-sublicensable, revocable license to access and use the Reviews Corpus for purposes of academic research. You may not resell, republish, or make any commercial use of the Reviews Corpus or its contents, including use of the Reviews Corpus for commercial research, such as research related to a funding or consultancy contract, internship, or other relationship in which the results are provided for a fee or delivered to a for-profit organization. You may not (a) link or associate content in the Reviews Corpus with any personal information (including Amazon customer accounts), or (b) attempt to determine the identity of the author of any content in the Reviews Corpus. If you violate any of the foregoing conditions, your license to access and use the Reviews Corpus will automatically terminate without prejudice to any of the other rights or remedies Amazon may have.
-</details>
-
 # Project description
 This project was made for [Acámica's](https://github.com/gpozzi/machine-learning/tree/master/acamica-data-scientist) data science bootcamp and consists of two iterations (click collapsible sections to see details of each):
 <details>
@@ -161,3 +130,35 @@ Beyond this, the classification of the reviews in 5 classes, depending on the us
 
 Finally, it should be mentioned that there is room for improvement for the model, although the accuracy obtained is satisfactory for the utility that it is intended to have.
   </details>
+
+# Data description
+
+<img src="https://image.freepik.com/vector-gratis/investigacion-datos-estadisticos-indicadores-desempeno-empresa-retorno-inversion-razon-porcentual-fluctuacion-indices-cambio-significativo_335657-2552.jpg" width=200>
+
+Dataset has been provided by [Amazon](https://registry.opendata.aws/amazon-reviews-ml/), it contains 3 files: `dataset_es_dev.json`,`dataset_es_test.json` and `dataset_es_train.json`.
+
+The dataset contains reviews in Spanish collected between November 1, 2015 and November 1, 2019. Each record contains the review text, the review title, the star rating, an anonymized reviewer ID, an anonymized product ID and the coarse-grained product category (e.g. ‘books’, ‘appliances’, etc.) The corpus is balanced across stars, so each star rating constitutes 20% of the reviews in each language.
+
+There are **200,000**, **5,000** and **5,000** reviews in the training, development and test sets respectively. The maximum number of reviews per reviewer is 20 and the maximum number of reviews per product is 20. All reviews are truncated after 2,000 characters, and all reviews are at least 20 characters long.
+
+The parameters included are:
+
+- `review_id`:  Identifier of the review. (String - categorical)
+- `product_id`: Identifier of the product being reviewed. (String - categorical)
+- `created_on`: Identifier of the date review was written in. (Timestamp - numerical)
+- `reviewer_id`: Identifier of the reviewer. (String - categorical)
+- `stars`: Number of stars given in current review. (Int - numerical)
+- `review_body`: Text body of the review. (String - categorical)
+- `review_title`: Text title of the review. (String - categorical)
+- `language`: Identifier of the review language review was written in. (String - categorical)
+- `product_category`: Identifier of the product category. (String - categorical)
+
+<details> <summary markdown="span">Dataset license</summary>
+
+# LICENSE
+
+By accessing the Multilingual Amazon Reviews Corpus ("Reviews Corpus"), you agree that the Reviews Corpus is an Amazon Service subject to the Amazon.com Conditions of Use (https://www.amazon.com/gp/help/customer/display.html/ref=footer_cou?ie=UTF8&nodeId=508088) and you agree to be bound by them, with the following additional conditions:
+
+In addition to the license rights granted under the Conditions of Use, Amazon or its content providers grant you a limited, non-exclusive, non-transferable, non-sublicensable, revocable license to access and use the Reviews Corpus for purposes of academic research. You may not resell, republish, or make any commercial use of the Reviews Corpus or its contents, including use of the Reviews Corpus for commercial research, such as research related to a funding or consultancy contract, internship, or other relationship in which the results are provided for a fee or delivered to a for-profit organization. You may not (a) link or associate content in the Reviews Corpus with any personal information (including Amazon customer accounts), or (b) attempt to determine the identity of the author of any content in the Reviews Corpus. If you violate any of the foregoing conditions, your license to access and use the Reviews Corpus will automatically terminate without prejudice to any of the other rights or remedies Amazon may have.
+</details>
+

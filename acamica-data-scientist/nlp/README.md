@@ -155,5 +155,5 @@ Beyond this, the classification of the reviews in 5 classes, depending on the us
     - It allows to identify users that are consistently generous or, on the contrary, too demanding with the scores to qualify their opinion in the final score and improve its quality.
     - It can be used to identify perception bias of certain categories. Thus, if a category has a marked tendency to undervalue products (with a greater number of positive opinions on neutral scores), the opinion of users about this category could be nuanced, compensating for this bias in some way in the calculation of the product score / seller. In this way, seller ratings from different categories could be comparable to each other and identify the best ones, allowing to compensate them or offer partnerships and other benefits for offering good customer experiences.
 
-Finally, it should be mentioned that there is room for improvement for the model, although the accuracy obtained is satisfactory for the utility that it is intended to give.
+Finally, it should be mentioned that there is room for improvement for the model, although the accuracy obtained is satisfactory for the utility that it is intended to have.
   </details>

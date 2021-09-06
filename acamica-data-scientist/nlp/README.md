@@ -69,7 +69,7 @@ In addition to the license rights granted under the Conditions of Use, Amazon or
 </details>
 
 # Project description
-This project was made for [Acámica's](https://www.acamica.com/data-science) data science bootcamp and consists of two iterations (click collapsible sections to see details of each):
+This project was made for [Acámica's](https://github.com/gpozzi/machine-learning/tree/master/acamica-data-scientist) data science bootcamp and consists of two iterations (click collapsible sections to see details of each):
 <details>
 <summary>Iteration one</summary>
 

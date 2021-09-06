@@ -41,7 +41,7 @@ Amazon is one of the e-commerce giants that people are using every day for onlin
 
 This project is considering the sentiment classification problem for online reviews using a supervised machine learning model to determine the overall semantic of customer reviews by classifying them both by a five-star rating and also by sentiment (positive / negative). The data used in this study has been provided by Amazon.
 
-# Project description
+# Project detail
 This project was made for [Acámica's](https://github.com/gpozzi/machine-learning/tree/master/acamica-data-scientist) data science bootcamp and consists of two iterations (click collapsible sections to see details of each):
 <details>
 <summary>Iteration one</summary>

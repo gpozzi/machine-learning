@@ -4,6 +4,9 @@ The goal of this project is to be able to predict the score that a user would se
 
 <img src="https://image.freepik.com/vector-gratis/ilustracion-concepto-abstracto-inteligencia-artificial-chatbot_335657-3723.jpg" width=300>
 
+- Link to notebook I: [**`Click here`**](https://github.com/gpozzi/machine-learning/blob/master/acamica-data-scientist/nlp/DS_Project_03_NLP.ipynb)
+- Link to notebook II: [**`Click here`**](https://github.com/gpozzi/machine-learning/blob/master/acamica-data-scientist/nlp/DS_Proyecto_04_NLP-Informe_final.ipynb)
+
 - Project tools / libraries:
   - `Python`
   - `Jupyter Notebook`
@@ -23,8 +26,9 @@ The goal of this project is to be able to predict the score that a user would se
   - Exploratory data analysis.
   - Data transformation: stemming and lemmatization.
   - Data cleaning.
-  - Machine learning method applied: **classification**.
-  - **Supervised learning**
+  - **Supervised machine learning**
+  - ML method applied: **classification**.
+-  
 
 # Motivation
 As online marketplaces have been popular during the past decades, the online sellers and merchants ask their purchasers to share their opinions about the products they have bought. Everyday millions of reviews are generated all over the Internet about different products, services and places. This has made the Internet the most important source of getting ideas and opinions about a product or a service.

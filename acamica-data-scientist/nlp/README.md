@@ -68,6 +68,15 @@ After that, a benchmark model has been developed and compared with other two oth
 - Conclusions
 - Next steps
 
+### Results:
+- Selected metric: **`accuracy`**
+- Best performing method: **`LinearSVC`**. Hyperparameters: `C`: **1**; `loss`: **squared_hinge**; `penalty`: **l2**; `tol`: **0.0001**
+- Accuracy LinearSVC without optimization on test: **0.5252**
+- Tf-idf optimization method: *changing n-gram range from unigram to trigram*
+- Optimization technique: **`GridsearchCV`**
+- Optimized hyperparameters for LinearSVC: `C`: **10**; `loss`: **squared_hinge**; `penalty`: **l2**; `tol`: **0.01**
+- Accuracy LinearSVC optimized: **0.5427**
+  
 ### Some visuals
 
 ![image](https://user-images.githubusercontent.com/52865532/131766302-ce54c9ad-f9a7-469c-8724-0090330990d6.png)
@@ -93,8 +102,6 @@ Beyond this, the classification of the reviews in 5 classes, depending on the us
 <summary>Iteration two</summary>
 
 ## Iteration two
-
-
   
 ### Index
 - Scope
@@ -107,6 +114,14 @@ Beyond this, the classification of the reviews in 5 classes, depending on the us
   - Model training and optimization
 - Analysis: 3-star reviews
 - Conclusions
+
+### Results
+
+- Selected metric: **`accuracy`**
+- Best performing method: **`LinearSVC`**. Hyperparameters: `C`: **500**; `loss`: **squared_hinge**; `penalty`: **l2**; `tol`: **0.01**
+- Optimization technique: **`GridsearchCV`**
+- Accuracy LinearSVC optimized: **0.54**
+
   
 ### Some visuals
   

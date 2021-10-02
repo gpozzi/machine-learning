@@ -125,16 +125,16 @@ Beyond this, the classification of the reviews in 5 classes, depending on the us
   
 ### Some visuals
   
-![image](https://user-images.githubusercontent.com/52865532/132253770-739842c6-91a9-4468-ad72-6144588a42a4.png)
+![image](https://user-images.githubusercontent.com/52865532/135698965-af7b5b5c-bb13-4fc9-b97c-ac38eb90f826.png)
 
-![image](https://user-images.githubusercontent.com/52865532/132253803-619cfb72-9cf0-4853-8b68-67276f1b2126.png)
+![image](https://user-images.githubusercontent.com/52865532/135698955-f6bc06b8-db03-4a32-8783-a99e0b07acbf.png)
   
 ![image](https://user-images.githubusercontent.com/52865532/132253752-483c9346-98a0-4eaf-a14e-ff287e4e8beb.png)
 
 ### Conclusions
 - We can observe that what the model loses in detail when changing to a binary classification it gains in greater robustness of its predictions.
 
-- Within the "neutral" reviews (3 stars) we can see a marked bias of users to classify apparently negative reviews as neutral, more pronounced in the categories `shoes`, `beauty`, `grocery`, `pet_products` and `wireless`. There are no categories in which the bias is inverse, so I assume that the user, faced with little-above-average experience, tends to rate it with 4 stars, while if the experience is not very satisfactory, it tends to qualify it as neutral.
+- Within the "neutral" reviews (3 stars) we can see a marked bias of users to classify apparently negative reviews as neutral, more pronounced in the categories `shoes`, `beauty`, `grocery`, `pet_products` and `wireless`. There are no categories in which the bias is inverse, so it is expected that the user, faced with little-above-average experience, tends to rate it with 4 stars, while if the experience is not very satisfactory, it tends to qualify it as neutral (3 stars).
 
 - Without necessarily substituting 5-star ratings, some benefits of implementing an algorithm that rates reviews in a binary way could be:
     - It can serve to penalize the score of poorly rated reviews, where the user writes a mostly positive text and presses 1
@@ -142,7 +142,7 @@ Beyond this, the classification of the reviews in 5 classes, depending on the us
     - It allows to identify users that are consistently generous or, on the contrary, too demanding with the scores to qualify their opinion in the final score and improve its quality.
     - It can be used to identify perception bias of certain categories. Thus, if a category has a marked tendency to undervalue products (with a greater number of positive opinions on neutral scores), the opinion of users about this category could be nuanced, compensating for this bias in some way in the calculation of the product score / seller. In this way, seller ratings from different categories could be comparable to each other and identify the best ones, allowing to compensate them or offer partnerships and other benefits for offering good customer experiences.
 
-Finally, it should be mentioned that there is room for improvement for the model, although the accuracy obtained is satisfactory for the utility that it is intended to have.
+Finally, it should be mentioned that there is room for improvement for the model, although the accuracy obtained is satisfactory for the utility that it is intended to provide.
   </details>
 
 # Data description

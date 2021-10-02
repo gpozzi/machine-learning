@@ -4,8 +4,8 @@ The goal of this project is to be able to predict the score that a user would se
 
 <img src="https://image.freepik.com/vector-gratis/ilustracion-concepto-abstracto-inteligencia-artificial-chatbot_335657-3723.jpg" width=300>
 
-- Link to notebook I: [**`Click here`**](https://github.com/gpozzi/machine-learning/blob/master/acamica-data-scientist/nlp/DS_Project_03_NLP.ipynb)
-- Link to notebook II: [**`Click here`**](https://github.com/gpozzi/machine-learning/blob/master/acamica-data-scientist/nlp/DS_Proyecto_04_NLP-Informe_final.ipynb)
+- Link to notebook I: [**`Click here`**](https://github.com/gpozzi/machine-learning/blob/master/acamica-data-scientist/nlp/DSProject03.ipynb)
+- Link to notebook II: [**`Click here`**](https://github.com/gpozzi/machine-learning/blob/master/acamica-data-scientist/nlp/DSProject034.ipynb)
 
 - Project tools / libraries:
   - `Python`
@@ -52,13 +52,13 @@ The first iteration starts with a comprehensive `EDA` and preprocessing, which i
 After that, a benchmark model has been developed and compared with other two other models in order to determine the best performing one. The one that showed the best accuracy has had its hyperparameters optimized and finally some conclusions have been made about the performance and the methodology applied.
 
 ### Index
-- [Scope](https://render.githubusercontent.com/view/ipynb?color_mode=light&commit=57a0e2af23b7242d0f2ca6bf955e0fb9ce619ae2&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f67706f7a7a692f6d616368696e652d6c6561726e696e672f353761306532616632336237323432643066326361366266393535653066623963653631396165322f6163616d6963612d646174612d736369656e746973742f6e6c702f44535f50726f6a6563745f30335f4e4c502e6970796e62&nwo=gpozzi%2Fmachine-learning&path=acamica-data-scientist%2Fnlp%2FDS_Project_03_NLP.ipynb&repository_id=273610133&repository_type=Repository#1.-Scope)
-- [EDA and preprocessing](https://render.githubusercontent.com/view/ipynb?color_mode=light&commit=57a0e2af23b7242d0f2ca6bf955e0fb9ce619ae2&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f67706f7a7a692f6d616368696e652d6c6561726e696e672f353761306532616632336237323432643066326361366266393535653066623963653631396165322f6163616d6963612d646174612d736369656e746973742f6e6c702f44535f50726f6a6563745f30335f4e4c502e6970796e62&nwo=gpozzi%2Fmachine-learning&path=acamica-data-scientist%2Fnlp%2FDS_Project_03_NLP.ipynb&repository_id=273610133&repository_type=Repository#2.-EDA-and-preprocessing)
-  - [EDA](https://render.githubusercontent.com/view/ipynb?color_mode=light&commit=57a0e2af23b7242d0f2ca6bf955e0fb9ce619ae2&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f67706f7a7a692f6d616368696e652d6c6561726e696e672f353761306532616632336237323432643066326361366266393535653066623963653631396165322f6163616d6963612d646174612d736369656e746973742f6e6c702f44535f50726f6a6563745f30335f4e4c502e6970796e62&nwo=gpozzi%2Fmachine-learning&path=acamica-data-scientist%2Fnlp%2FDS_Project_03_NLP.ipynb&repository_id=273610133&repository_type=Repository#EDA)
-  - [Review preprocessing](https://render.githubusercontent.com/view/ipynb?color_mode=light&commit=57a0e2af23b7242d0f2ca6bf955e0fb9ce619ae2&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f67706f7a7a692f6d616368696e652d6c6561726e696e672f353761306532616632336237323432643066326361366266393535653066623963653631396165322f6163616d6963612d646174612d736369656e746973742f6e6c702f44535f50726f6a6563745f30335f4e4c502e6970796e62&nwo=gpozzi%2Fmachine-learning&path=acamica-data-scientist%2Fnlp%2FDS_Project_03_NLP.ipynb&repository_id=273610133&repository_type=Repository#Review-preprocessing)
-- [Machine Learning](https://render.githubusercontent.com/view/ipynb?color_mode=light&commit=57a0e2af23b7242d0f2ca6bf955e0fb9ce619ae2&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f67706f7a7a692f6d616368696e652d6c6561726e696e672f353761306532616632336237323432643066326361366266393535653066623963653631396165322f6163616d6963612d646174612d736369656e746973742f6e6c702f44535f50726f6a6563745f30335f4e4c502e6970796e62&nwo=gpozzi%2Fmachine-learning&path=acamica-data-scientist%2Fnlp%2FDS_Project_03_NLP.ipynb&repository_id=273610133&repository_type=Repository#3.-Machine-Learning)
-  - [Metric selection](https://render.githubusercontent.com/view/ipynb?color_mode=light&commit=57a0e2af23b7242d0f2ca6bf955e0fb9ce619ae2&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f67706f7a7a692f6d616368696e652d6c6561726e696e672f353761306532616632336237323432643066326361366266393535653066623963653631396165322f6163616d6963612d646174612d736369656e746973742f6e6c702f44535f50726f6a6563745f30335f4e4c502e6970796e62&nwo=gpozzi%2Fmachine-learning&path=acamica-data-scientist%2Fnlp%2FDS_Project_03_NLP.ipynb&repository_id=273610133&repository_type=Repository#Metric-selection)
-  - [Transformations](https://render.githubusercontent.com/view/ipynb?color_mode=light&commit=57a0e2af23b7242d0f2ca6bf955e0fb9ce619ae2&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f67706f7a7a692f6d616368696e652d6c6561726e696e672f353761306532616632336237323432643066326361366266393535653066623963653631396165322f6163616d6963612d646174612d736369656e746973742f6e6c702f44535f50726f6a6563745f30335f4e4c502e6970796e62&nwo=gpozzi%2Fmachine-learning&path=acamica-data-scientist%2Fnlp%2FDS_Project_03_NLP.ipynb&repository_id=273610133&repository_type=Repository#Transformations)
+- Scope
+- EDA and preprocessing
+  - EDA
+  - Review preprocessing
+- Machine Learning
+  - Metric selection
+  - Transformations
   - Data vectorization
   - Setting benchmark model
   - Model training and comparing benchmark with the following models:

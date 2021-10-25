@@ -1,6 +1,6 @@
 # Project at a glance: Natural Language Processing 💬
 
-The goal of this project is to be able to predict the score that a user would set given a review by using an Amazon dataset that contained reviews about different products.
+The goal of this project is to be able to predict the score that a user would set given a review by using an Amazon dataset that contains reviews about different products.
 
 <img src="https://image.freepik.com/vector-gratis/ilustracion-concepto-abstracto-inteligencia-artificial-chatbot_335657-3723.jpg" width=300>
 
